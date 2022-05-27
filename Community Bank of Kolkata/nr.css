@@ -1,0 +1,34 @@
+
+.higher{
+	box-sizing:border-box;
+	padding:5px;
+	background-color:white;
+	border:1px solid #D3D3D3;
+
+}
+.both{
+	color:orange;
+	font-size:20px;
+}
+.folk{
+	color:#454545;
+}
+.quad{
+	background-color:orange;
+	color:white;
+	padding:10px;
+	text-decoration:none;
+	float:right;
+	margin:1px;
+}
+.quad1{
+	background-color:orange;
+	color:white;
+	padding:10px;
+	text-decoration:none;
+	float:right;
+	margin:1px;
+}
+.quad:hover{
+	cursor:pointer;
+}

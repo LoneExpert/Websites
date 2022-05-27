@@ -1,0 +1,62 @@
+<!Doctype html>
+<html>
+<head>
+<title>Account</title>
+<link rel="stylesheet" href="acc.css">
+<link rel=icon href="account.jpeg" type="image/x-icon">
+</head>
+<body><header><h1></h1></header>
+<div class="topnav">
+    <a class="action" href="Home.html">Home</a>
+    <a class="native" href="Personal">Account</a>
+	<a href=".html">Associate Partner</a>
+	<a href="News.html">News Section</a>
+	<img src="trust.jpeg" width="120px" height="80px">
+	<div class="topnav-right">
+    <a href="Contact Us.html">Contact Us</a>
+	</div>
+	</div>
+<img src="back1.jpeg" width="100%" height="400px">
+<p style="color:orange;font-size:35px">Accounts - One Step Solutions For Opening Your Bank Account</p>
+<div class="low">
+	<div class="jo">
+	<p class="text">Thinking about opening a saving account for your family members, opening a fixed account or about opening a current
+	account or you have though about net banking and many other. Do all this from CBK. We are having a varieties of accounts types for your needs.
+	Have a look at the product that we make for our customers. 	
+	<hr color="orange"></hr>
+	<p class="bot">Current Account</p>
+	<p>Are you a business owners or entrepreneurs and thinking about opening current account for easy withdrawing or transfering money to another account.
+	You can open in CBK that gives you free transfer of account from one branch to another. There are more features also that are beneficial for you.</p>
+	<p>Click the button below to open your current account*<a class="squad" href="current.html">APPLY NOW</a></p><br>
+	<hr color="orange"></hr>
+	<p class="bot">Saving Account</p>
+	<p>Are you really foresight who think about future for family or are you expert in investment management who save money money for future needs with a valuable intrest
+	can come to our bank for opening a saving account. People who open their first saving account in our bank will get 8.1%p.a. intrest.</p>
+	<p>Click the button below to open your saving account*<a class="squad" href="saving.html">APPLY NOW</a></p><br>
+	<hr color="orange"></hr>
+	<p class="bot">Fixed Account</p>
+	<p>Earn assured returns on your savings and meet your short-term and long-term goals with fixed deposits from CBK. With attractive interest rates and flexible investment tenures, our fixed deposits are one of the safe investment options available. Opt for a fixed deposit account with us and let your savings grow over a period ranging from seven days to a decade!</p>
+	<p>Click the button below to open your fixed account*<a class="squad" href="fixed.html">APPLY NOW</a></p><br>
+	<hr color="orange"></hr>
+	<p class="bot">Net Banking</p>
+	<p>	Start banking online using CBK. Our Bank provides easy steps to start online banking. Assistance is available 24/7 for customers. Avail a variety of benefits and services by Engo through the online banking service. Hassle-free internet banking options makes banking with CBK the best.
+		.With our Internet Banking solutions, you can now bid goodbye to long queues and unwanted delays.</p>
+	<p>Click the button below to start your online banking*<a class="squad" href="net.html">START NOW</a></p><br>
+	<hr color="orange"></hr>
+	<p class="bot">Woman Saving Account</p>
+	<p>CBK offers a unique women’s savings account scheme called Advantage Women’s Savings Account which is designed especially for modern, financially independent women, keeping in mind their different needs.
+		We respect today's woman attituce towards their dreams and with this scheme it is going to be easy for woman to achieve their dream faster.</p>
+	<p>Click the button below for all womans to start being independent*<a class="squad" href="woman.html">START NOW</a></p><br>
+	<hr color="orange"></hr>
+	</div>
+</div><br>
+<img src="flew.jpg" width="100%" height="410px">
+<nav>
+    <a href="Feedback.html">Feedback</a>
+    <a href="Faq's.html">FAQ'S</a>	
+	<a href="Terms.html">Terms and Conditions</a>
+	<a href="#">&copy; 2021 | Community Bank of Kolkata</a>
+</nav>
+</body>
+</html>
+</html>

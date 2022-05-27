@@ -1,0 +1,298 @@
+<!Doctype html>
+<html>
+<head>
+<title>Home Loan</title>
+<link rel="stylesheet" href="Look.css">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet"
+		href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav class="navigation-bar">
+    <img class="logo" src="trust.jpeg">
+    <a class="other" href="About us.html">Know us</a>
+    <a class="home1" href="Home.html">Home</a>
+    <a class="other" href="nri.html">NRI</a>
+	<a href="#">asdf</a>
+		<a href="#">asdf</a>
+				
+	<a class="log" href="login.html">Login/Sign-up</a>
+	<a class="log1" href="abuse.html">Report an abuse</a>
+	<a class="log1" href="debit.html">Debit Card Info</a>
+</nav>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr color="#D3D3D3"></hr>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<div class="input-icons">
+				<i class="fa fa-search icon">
+			</i>
+			&nbsp&nbsp <input onclick="openul()" type="text"  id="searchInput" placeholder="Search for Products and Services...">
+
+<div class="list" id="fruits"><button class="ins" type="button" onclick="closeul()">X</button>
+  <p><a class="search" href="About us.html">Know us</a></p>
+  <p><a class="search" href="nri.html">NRI</a></p>  
+  <p><a class="search" href="Payment Form.html">Payment Form</a></p>  
+  <p><a class="search" href="Loan.html">Loan</a></p>
+  <p><a class="search" href="home loan1.1.html">Home Loan</a></p>    
+  <p><a class="search" href="personal loan.html">Personal Loan</a></p>
+  <p><a class="search" href="native.html">Loan for Study Native</a></p>  
+  <p><a class="search" href="abroad.html">Loan for Study Abroad</a></p>  
+  <p><a class="search" href="saving1.html">Savings Account</a></p>
+  <p><a class="search" href="women.html">Women Aura</a></p>  
+  <p><a class="search" href="Contact Us.html">Contact us</a></p> 
+  <p><a class="search" href="#Covid-19 Finance">Covid-19 Finance</a></p>
+  <p><a class="search" href="#Disaster Finance">Disaster Finance</a></p>  
+  <p><a class="search" href="special.html">Special Offers</a></p>  
+  <p><a class="search" href="fixed1.html">Fixed Account</a></p>  
+  <p><a class="search" href="current1.html">Current Account</a></p>  
+  <p><a class="search" href="car loan1.1.html">Car Loan</a></p>
+  <p><a class="search" href="edu1.1.html">Education Loan</a></p>  
+  <p><a class="search" href="personal1.1.html">Personal Loan</a></p>  
+  <p><a class="search" href="Business1.1.html">Business Loan</a></p>
+  <p><a class="search" href="gold1.1.html">Gold Loan</a></p>     
+</div>
+	<script>$("#searchInput").on('keyup', function() {
+  var searchValue = $(this).val();
+  searchAndFilter(searchValue)
+});
+
+function searchAndFilter(searchTerm) {
+  if (searchTerm == '') {
+    $("#fruits p").hide()
+  } else {
+    $("#fruits p").each(function() {
+      var currentText = $(this).text();
+      currentText = currentText.toUpperCase();
+      searchTerm = searchTerm.toUpperCase();
+      if (currentText.indexOf(searchTerm) >= 0) {
+        $(this).show();
+      }
+    });
+  }
+}
+
+$(document).ready(function() {
+  $("#fruits p").hide();
+});
+</script>
+<script>
+function openul() {
+  document.getElementById("fruits").style.display = "block";
+}
+
+function closeul() {
+  document.getElementById("fruits").style.display = "none";
+}
+</script>
+<br>
+<br>
+<nav class="parthead">
+<div class="dropdown">
+    <button class="dropbtn">&nbsp&nbsp&nbsp&nbspAccount
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="saving1.html">Savings Account</a>
+      <a href="fixed1.html">Fixed Account</a>
+      <a href="current1.html">Current Account</a>
+    </div>
+	</div>
+	<div class="dropdown">
+    <button class="dropbtn">&nbsp&nbsp&nbsp&nbspLoan
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="home loan1.1.html">Home Loan</a>
+      <a href="car loan1.1.html">Car Loan</a>
+	  <a href="edu1.1.html">Education Loan</a>
+      <a href="personal1.1.html">Personal Loan</a>
+	  <a href="business1.1.html">Business Loan</a>
+      <a href="gold1.1.html">Gold Loan</a>
+    </div>
+  </div> 
+	<a class="part" href="Payment Form.html">&nbsp&nbsp&nbsp&nbspE-Payment</a>
+	<a class="part" href="net.html">&nbsp&nbsp&nbsp&nbspNET Banking</a>
+	<a class="part" href="special.html">&nbsp&nbsp&nbsp&nbspSpecial Offers</a>
+	<a class="part" href="women.html">&nbsp&nbsp&nbsp&nbspWomen Aura</a>
+</nav>
+<br>
+<br>
+<br>	
+<div class="slideshow-container1">
+
+<div class="mySlides1 fade">
+  <img src="Homeloan8.jpg" style="width:100%;height:320px">
+
+</div>
+
+<div class="mySlides1 fade">
+  <img src="Homeloan1.jpg" style="width:99%;height:320px">
+ 
+</div>
+
+<div class="mySlides1 fade">
+  <img src="Homeloan7.jpg" style="width:99%;height:320px">
+  
+</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+</div>
+<br><br>
+<div class="flex-container">
+  <div><span class="fi1">Home Loan</span><br><br>
+  <p class="fir">CBK Bank Home Loan is your one stop solution for owning your dream home. we offer a wide range of products well suited to meet your housing loan requirement . 
+   We offer affordable home loans at attractive rate of interest rates for tenure up to 30 years.a self-service digital platform for our existing as well as non CBK Bank customers.
+   The documents required to avail home loan are kept very minimal to make your home loan journey hassle free.</p>
+</div>
+  <div><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img class="fe" src="Homeloan2.jpg" width="450px">
+  </div>
+</div><br><br>
+<div class="flex-container2">
+	<div>
+		<p class="no1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCBK Bank Home Loan</p><br>
+		<ul><li>&nbspFeatures</li>
+		<p class="fir">&nbsp&nbsp&nbspLoans for Resident Indian Self Employed</p><p class="fir">&nbsp&nbsp&nbspand employed customer.</p>
+		<p class="fir">&nbsp&nbsp&nbspAttractive fixed and floating interest rates.</p><br>
+		<li>&nbspLoan Amount</li>
+		<p class="fir">&nbsp&nbsp&nbspup to Rs. 5 Crore</p><br>
+		<li>&nbspTenure</li>
+		<p class="fir">&nbsp&nbsp&nbsp30 years</p><br>
+		<li>&nbspEMI</li>
+		<p class="fir">&nbsp&nbsp&nbsp12 EMIs off on regular payments of EMIs. 4 &nbsp&nbsp&nbspEMIs each waived at the end of 4th, 8th &nbsp&nbsp&nbspand 12th year.
+		No extra costs, nil &nbsp&nbsp&nbspprepayment charge.</p></ul><br><br><br><br>
+		<a href="Contact Us.html">&nbsp&nbsp<input class="hl" type="submit" value="Need Assistance"></a><a href="code.html"><input class="hl1" type="submit" value="Apply Now"></a>
+	</div>
+	<div>
+		<p class="no1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSaubhagyaprahram Home Loan</p><br>
+		<ul><li>&nbspFeatures</li>
+		<p class="fir">&nbsp&nbsp&nbspLoans for Resident Indian Self Employed</p><p class="fir">&nbsp&nbsp&nbspand employed customer.</p>
+		<p class="fir">&nbsp&nbsp&nbspAttractive fixed and floating interest rates.</p><br>
+		<li>&nbspLoan Amount</li>
+		<p class="fir">&nbsp&nbsp&nbspup to Rs. 1 - 5 Crore</p><br>
+		<li>&nbspTenure</li>
+		<p class="fir">&nbsp&nbsp&nbsp30 years</p><br>
+		<li>&nbspEMI</li>
+		<p class="fir">&nbsp&nbsp&nbsp12 EMIs off on regular payments of EMIs. 4 &nbsp&nbsp&nbspEMIs each waived at the end of 4th, 8th &nbsp&nbsp&nbspand 12th year.
+		No extra costs, nil &nbsp&nbsp&nbspprepayment charge.</p></ul><br><br><br><br>
+		<a href="Contact Us.html">&nbsp&nbsp<input class="hl" type="submit" value="Need Assistance"></a><a href="code.html"><input class="hl1" type="submit" value="Apply Now"></a>
+	</div>
+	<div>
+		<p class="no1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAnshuprabha Home Loan</p><br>
+		<ul><li>&nbspFeatures</li>
+		<p class="fir">&nbsp&nbsp&nbspLoans for Resident Indian Self Employed</p><p class="fir">&nbsp&nbsp&nbspand employed customer.</p>
+		<p class="fir">&nbsp&nbsp&nbspAttractive fixed and floating interest rates.</p><br>
+		<li>&nbspLoan Amount</li>
+		<p class="fir">&nbsp&nbsp&nbspup to Rs. 1 Crore to 50 Lakh </p><br>
+		<li>&nbspTenure</li>
+		<p class="fir">&nbsp&nbsp&nbsp30 years</p><br>
+		<li>&nbspEMI</li>
+		<p class="fir">&nbsp&nbsp&nbsp12 EMIs off on regular payments of EMIs. 4 &nbsp&nbsp&nbspEMIs each waived at the end of 4th, 8th &nbsp&nbsp&nbspand 12th year.
+		No extra costs, nil &nbsp&nbsp&nbspprepayment charge.</p></ul><br><br><br><br>
+		<a href="Contact Us.html">&nbsp&nbsp<input class="hl" type="submit" value="Need Assistance"></a><a href="code.html"><input class="hl1" type="submit" value="Apply Now"></a>
+	</div>
+</div><br>
+<div class="flex-container2">
+	<div>
+		<p class="no1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSubh Aarambh Home Loan</p><br>
+		<ul><li>&nbspFeatures</li>
+		<p class="fir">&nbsp&nbsp&nbspLoans for Resident Indian Self Employed</p><p class="fir">&nbsp&nbsp&nbspand employed customer.</p>
+		<p class="fir">&nbsp&nbsp&nbspAttractive fixed and floating interest rates.</p><br>
+		<li>&nbspLoan Amount</li>
+		<p class="fir">&nbsp&nbsp&nbspup to Rs. 50 - 30 Lakh</p><br>
+		<li>&nbspTenure</li>
+		<p class="fir">&nbsp&nbsp&nbsp30 years</p><br>
+		<li>&nbspEMI</li>
+		<p class="fir">&nbsp&nbsp&nbsp12 EMIs off on regular payments of EMIs. 4 &nbsp&nbsp&nbspEMIs each waived at the end of 4th, 8th &nbsp&nbsp&nbspand 12th year.
+		No extra costs, nil &nbsp&nbsp&nbspprepayment charge.</p></ul><br><br><br><br>
+		<a href="Contact Us.html">&nbsp&nbsp<input class="hl" type="submit" value="Need Assistance"></a><a href="code.html"><input class="hl1" type="submit" value="Apply Now"></a>
+	</div>
+	<div>
+		<p class="no1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSubh Shuruaat Home Loan</p><br>
+		<ul><li>&nbspFeatures</li>
+		<p class="fir">&nbsp&nbsp&nbspLoans for Resident Indian Self Employed</p><p class="fir">&nbsp&nbsp&nbspand employed customer.</p>
+		<p class="fir">&nbsp&nbsp&nbspAttractive fixed and floating interest rates.</p><br>
+		<li>&nbspLoan Amount</li>
+		<p class="fir">&nbsp&nbsp&nbspup to Rs. 30 - 20 Lakh</p><br>
+		<li>&nbspTenure</li>
+		<p class="fir">&nbsp&nbsp&nbsp30 years</p><br>
+		<li>&nbspEMI</li>
+		<p class="fir">&nbsp&nbsp&nbsp12 EMIs off on regular payments of EMIs. 4 &nbsp&nbsp&nbspEMIs each waived at the end of 4th, 8th &nbsp&nbsp&nbspand 12th year.
+		No extra costs, nil &nbsp&nbsp&nbspprepayment charge.</p></ul><br><br><br><br>
+		<a href="Contact Us.html">&nbsp&nbsp<input class="hl" type="submit" value="Need Assistance"></a><a href="code.html"><input class="hl1" type="submit" value="Apply Now"></a>
+	</div>
+	<div>
+		<p class="no1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAsha Home Loan</p><br>
+		<ul><li>&nbspFeatures</li>
+		<p class="fir">&nbsp&nbsp&nbspLoans for Resident Indian Self Employed</p><p class="fir">&nbsp&nbsp&nbspand employed customer.</p>
+		<p class="fir">&nbsp&nbsp&nbspAttractive fixed and floating interest rates.</p><br>
+		<li>&nbspLoan Amount</li>
+		<p class="fir">&nbsp&nbsp&nbspup to Rs. 20 - 1 Lakh</p><br>
+		<li>&nbspTenure</li>
+		<p class="fir">&nbsp&nbsp&nbsp30 years</p><br>
+		<li>&nbspEMI</li>
+		<p class="fir">&nbsp&nbsp&nbsp12 EMIs off on regular payments of EMIs. 4 &nbsp&nbsp&nbspEMIs each waived at the end of 4th, 8th &nbsp&nbsp&nbspand 12th year.
+		No extra costs, nil &nbsp&nbsp&nbspprepayment charge.</p></ul><br><br><br><br>
+		<a href="Contact Us.html">&nbsp&nbsp<input class="hl" type="submit" value="Need Assistance"></a><a href="code.html"><input class="hl1" type="submit" value="Apply Now"></a>
+	</div>
+</div>
+<div class="rate">
+	<p class="security">WE GIVE YOU MOST ESTEEMED</p>
+	<p class="security1">FACILITIES !</p>
+	</div><br><br>
+	<div><img src="hodi.jpg" width="250px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="hodi1.jpg" width="250px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="hodi2.jpg" width="270px" height="350px"></div>
+	<div><img src="hodi3.png" width="250px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="hodi4.jpg" width="250px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="hodi5.jpg" width="290px"></div>
+	<br><br>
+
+<script>
+var slideIndex1 = 0;
+showSlides1();
+
+function showSlides1() {
+  var i;
+  var slides1 = document.getElementsByClassName("mySlides1");
+  var dots1= document.getElementsByClassName("dot1");
+  for (i = 0; i < slides1.length; i++) {
+    slides1[i].style.display = "none";  
+  }
+  slideIndex1++;
+  if (slideIndex1 > slides1.length) {slideIndex1 = 1}    
+  for (i = 0; i < dots1.length; i++) {
+    dots1[i].className = dots1[i].className.replace(" active1", "");
+  }
+  slides1[slideIndex1-1].style.display = "block";  
+  dots1[slideIndex1-1].className += " active1";
+  setTimeout(showSlides1, 4000); 
+}
+</script>
+<script>
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>

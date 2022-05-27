@@ -1,0 +1,141 @@
+<!Doctype html>
+<html>
+<head>
+<title>j query</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style>
+	tr,td,table{
+		border:1px solid red;
+		font-size:20px;
+		background-color:orange;
+	}
+	td{
+		border:1px solid lime;
+		background-color:yellow;
+	}
+	#shubbu{
+		width:100px;
+		height:170px;
+		background-color:orange;
+		border-radius:100px;
+	}
+
+</style>
+</head>
+<body>
+<div id="con">
+<div id="shubbu"></div>
+</div>
+<br>
+<br>
+<br>
+<button id="hila">Hila ke deho</button>
+<div class="aryan">Hi! Hello Ji</div>
+<p style="background-color:#ff0000" id="inter">This is a paragraph.</p>
+<button id="b5">Change Css</button>
+<button id="b2">Slide-Down</button>
+<button id="b3">Slide Up</button>
+<p class="123">
+Hello buddy</p>
+<p class="123">
+Hello guys</p>
+<button id="b1">A sweet message for you/ Delete msg</button>
+<button id="b4">Alert</button>
+<br>
+<br>
+
+<table>
+	<tr>
+		<td class="odd">K</td>
+		<td class="even">H</td>
+		<td class="odd">T</td>
+		<td class="even">E</td>
+		<td class="odd">T</td>
+		<td class="even">L</td>
+		<td class="odd">Q</td>
+		<td class="even">L</td>
+		<td class="odd">Z</td>
+		<td class="even">O</td>
+	</tr>
+	<tr>
+		<td class="odd">K</td>
+		<td class="even">B</td>
+		<td class="odd">T</td>
+		<td class="even">U</td>
+		<td class="odd">I</td>
+		<td class="even">D</td>
+		<td class="odd">Y</td>
+		<td class="even">D</td>
+		<td class="odd">W</td>
+		<td class="even">Y</td>
+	</tr>
+<tr>
+	<td>L</td>
+	<td>E</td>
+	<td>D</td>
+	<td>N</td>
+	<td>P</td>
+	<td>J</td>
+	<td>L</td>
+	<td>O</td>
+	<td>Q</td>
+	<td>Y</td>
+</tr>
+<tr>
+	<td class="odd">K</td>
+		<td class="even">B</td>
+		<td class="odd">T</td>
+		<td class="even">U</td>
+		<td class="odd">I</td>
+		<td class="even">D</td>
+		<td class="odd">Y</td>
+		<td class="even">D</td>
+		<td class="odd">W</td>
+		<td class="even">Y</td>
+</tr>
+
+<script>
+$(document).ready(function(){
+	$("#b1").click(function(){
+		$("td:even").toggle()
+	})
+});
+$(document).ready(function(){
+	$("#b4").click(function(){
+		alert("Message padh liya ab tu gand mara")
+	})
+});
+/*$(document).ready(function(){
+	$("#b2").click(function(){
+		$("#con").slideDown(2000)
+		$("#").animate({
+			opacity:0.5,
+			
+		});
+	});
+});
+$(document).ready(function(){
+	$("#b3").click(function(){
+		$("#con").slideUp(2000)
+		$("#shubbu").animate({
+			opacity:0.2,
+			
+		});
+	});
+});*/
+$(document).ready(function(){
+  $("#b5").click(function(){
+    $("#inter").css("background-color", "yellow");
+  });
+});
+$(document).ready(function(){
+	$("#hila").click(function(){
+		$("#shubbu").css({"background-color":"red","width":"200px","height":"170px","border-radius":"50px","transition":"width 2s, height 2s, border-radius 2s, transform 1s","transform":"rotateX(1420deg) "});
+		});
+	});
+		
+	
+</script>
+
+</body>
+</html>

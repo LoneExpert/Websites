@@ -1,0 +1,72 @@
+*{
+	box-sizing:border-box;
+	margin:0px;
+	
+}
+body{
+	font-family:Verdana,Geneva,sans-serif;
+	margin:20px 25px;
+	font-size:18px;
+	padding:9px;
+
+}
+.i{
+	background-color:#D3D3D3;
+	padding:5px 10px 10px 10px;
+	border:2px solid black;
+	border-radius:4px;	
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+	width:100%;
+	padding:10px;
+	border:2px solid #E5E4E2;
+	border-radius:4px;
+	margin:10px;
+}
+fieldset{
+	background-color:#fff;
+	border: 2px solid #E5E4E2;
+}
+.main_title{
+		text-align:center;
+}
+input[type="submit"],
+input[type="reset"]{
+	background-color:#32CD32;
+	color:white;
+	padding:5px 5px;
+	border-radius:4px;
+	cursor:pointer;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+     background-color:#52D017;
+}	
+nav{
+	background-color:#BCC6CC;
+	overflow:hidden;
+	text-align:right;
+	border:2px solid black;
+	border-radius:4px;
+	
+}
+nav a{
+	text-decoration:none;
+	padding:10px;
+	float:left;
+	color:white;
+	text-align:right;
+	
+}
+a:hover{
+	color:black;
+}
+.clip{
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<title>Function</title>
+</head>
+<body>
+<input type="button" value="sqrt" onclick="add()">
+<br><br>
+<div id="Mera">Chal Hat.....</div>
+<style>
+input[type]{
+	border-radius:10px;
+	padding:20px;
+	background-color:#34282C;
+	color:#D3D3D3;	
+}
+input[type]:hover{
+	background-color:red;
+	border-radius:100px;
+	border:3px solid white;
+}
+#Mera{
+	font-size:20px;
+	color:#D3D3D3;
+	font-weight:bold;
+	font-family: 'Brush Script MT', cursive;
+	
+}
+</style>
+<script>
+
+function add(){
+	var a,b
+	var a=parseInt(prompt("Enter First Number"));
+	var b=Math.sqrt(a);
+	window.alert(b);
+}
+
+let myFunction = (a,b)=>a+b;
+var a=parseInt(prompt("Number Do"));
+var b=parseInt(prompt("Number De Do"));
+window.prompt(myFunction(a,b)); /*for output in prompt*/
+/*document.getElementById("Mera").innerHTML = myFunction(a,b);  for output in webpage*/
+
+	
+	
+</script>	
+</body>
+</html>

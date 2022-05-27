@@ -1,0 +1,60 @@
+<!Doctype html>
+<html>
+<head>
+<title>Payment form</title>
+<link rel="icon" href="payment.jpg" type="image/x-icon">
+<link rel="stylesheet" href="show.css">
+</head>	
+<body>
+<nav>
+    <a href="Home.html">Home</a>
+	
+</nav>
+<div class="i">
+<form action="">
+ <h1 class="main_title">Payment Form</h1>
+ <p>Required fields are followed by *</p>
+ <h2>Contact Information</h2>
+ <p>Name-: *<input type="text" name="fname lname" required placeholder="Ram Prakash"></p>
+  Gender-: *
+<fieldset>
+ <p> 
+	 Male<input type="radio" name="gender" id="gender" required>  |  Female<input type="radio" name="gender" id="gender" required>  |  Rather Not to Say<input type="radio" name="gender" id="gender" required>                 
+</p>
+</fieldset>
+<p>
+   Address-:<br>
+   <textarea placeholder="Enter Your Address" name="address" rows="10" cols="30"></textarea>
+</p>
+</fieldset>
+<p>Email-: *<input type="email" name="email" id="email" required placeholder="suman@gmail.com">
+</p>
+Pincode-: *<input type="text" name="number" id="number" required placeholder="136897" pattern='[0-9]{6}'>(max 6 digits)</p>
+<h2>Payment Information</h2>
+<p>Accepted Cards-:</p>
+<img class="clip" src="visa.jpeg" width="50px" height="45px">  <img class="clip" src="paytm.jpeg" width="50px" height="45px">  <img class="clip"src="Debit.jpeg" width="50px" height="45px"> <img class="clip" src="rupay.jpeg" width="50px" height="45px"> <img class="clip" src="Master.jpeg" width="50px" height="45px">
+
+<p>Card Type-: *
+   <select name="card_type" id="card_type" required>
+   <option style="background-image:url(india.png);"><--Select A Card Type--></option>
+   <option style="background-image:url(china.png);">VISA</option>
+   <option value="PAYTM">PAYTM</option>
+   <option value="DEBIT CARD">DEBIT CARD</option>
+   <option value="RUPAY">RUPAY</option>   
+   <option value="MASTER CARD">MASTER CARD</option>
+   </select>
+</p>
+<p>Card Number-: *<input type="number" name="card_number" id="card_number" required placeholder="1111-2222-33333-44444">
+</p> 
+
+<p> Card Expiration-: *<input type="date" name="card_expiration" id="card_expirartion" required placeholder="dd/mm/yyyy">
+
+</p>
+ <p> CVV-: *<input type="password" name="cvv" id="cvv" required placeholder="12345678" pattern='[0-9]{8}'>(max 8 digits)</p>
+ <p> Money to be payed-:*<input type="number" name="money" id="money" required placeholder="Enter the amount"></p>
+<input type="submit" value="Pay Now" required>
+<input type="reset" value="RESET">
+</form>
+</div>
+</body>
+</html>

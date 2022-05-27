@@ -1,0 +1,251 @@
+<!Doctype html>
+<html>
+<head>
+<title>Curent Account</title>
+<link rel="stylesheet" href="Look.css">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet"
+		href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav class="navigation-bar">
+    <img class="logo" src="trust.jpeg">
+    <a class="other" href="About us.html">Know us</a>
+    <a class="home1" href="Home.html">Home</a>
+    <a class="other" href="nri.html">NRI</a>
+	<a href="#">asdf</a>
+		<a href="#">asdf</a>
+				
+	<a class="log" href="login.html">Login/Sign-up</a>
+	<a class="log1" href="abuse.html">Report an abuse</a>
+	<a class="log1" href="debit.html">Debit Card Info</a>
+</nav>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr color="#D3D3D3"></hr>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<div class="input-icons">
+				<i class="fa fa-search icon">
+			</i>
+			&nbsp&nbsp <input onclick="openul()" type="text"  id="searchInput" placeholder="Search for Products and Services...">
+
+<div class="list" id="fruits"><button class="ins" type="button" onclick="closeul()">X</button>
+  <p><a class="search" href="About us.html">Know us</a></p>
+  <p><a class="search" href="nri.html">NRI</a></p>  
+  <p><a class="search" href="Payment Form.html">Payment Form</a></p>  
+  <p><a class="search" href="Loan.html">Loan</a></p>
+  <p><a class="search" href="home loan1.1.html">Home Loan</a></p>    
+  <p><a class="search" href="personal loan.html">Personal Loan</a></p>
+  <p><a class="search" href="native.html">Loan for Study Native</a></p>  
+  <p><a class="search" href="abroad.html">Loan for Study Abroad</a></p>  
+  <p><a class="search" href="saving1.html">Savings Account</a></p>
+  <p><a class="search" href="women.html">Women Aura</a></p>  
+  <p><a class="search" href="Contact Us.html">Contact us</a></p> 
+  <p><a class="search" href="#Covid-19 Finance">Covid-19 Finance</a></p>
+  <p><a class="search" href="#Disaster Finance">Disaster Finance</a></p>  
+  <p><a class="search" href="special.html">Special Offers</a></p>  
+  <p><a class="search" href="fixed1.html">Fixed Account</a></p>  
+  <p><a class="search" href="current1.html">Current Account</a></p>  
+  <p><a class="search" href="car loan1.1.html">Car Loan</a></p>
+  <p><a class="search" href="edu1.1.html">Education Loan</a></p>  
+  <p><a class="search" href="personal1.1.html">Personal Loan</a></p>  
+  <p><a class="search" href="Business1.1.html">Business Loan</a></p>
+  <p><a class="search" href="gold1.1.html">Gold Loan</a></p>    
+</div>
+	<script>$("#searchInput").on('keyup', function() {
+  var searchValue = $(this).val();
+  searchAndFilter(searchValue)
+});
+
+function searchAndFilter(searchTerm) {
+  if (searchTerm == '') {
+    $("#fruits p").hide()
+  } else {
+    $("#fruits p").each(function() {
+      var currentText = $(this).text();
+      currentText = currentText.toUpperCase();
+      searchTerm = searchTerm.toUpperCase();
+      if (currentText.indexOf(searchTerm) >= 0) {
+        $(this).show();
+      }
+    });
+  }
+}
+
+$(document).ready(function() {
+  $("#fruits p").hide();
+});
+</script>
+<script>
+function openul() {
+  document.getElementById("fruits").style.display = "block";
+}
+
+function closeul() {
+  document.getElementById("fruits").style.display = "none";
+}
+</script>
+<br>
+<br>
+<nav class="parthead">
+<div class="dropdown">
+    <button class="dropbtn">&nbsp&nbsp&nbsp&nbspAccount
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="saving1.html">Savings Account</a>
+      <a href="fixed1.html">Fixed Account</a>
+      <a href="current1.html">Current Account</a>
+    </div>
+	</div>
+	<div class="dropdown">
+    <button class="dropbtn">&nbsp&nbsp&nbsp&nbspLoan
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="home loan1.1.html">Home Loan</a>
+      <a href="fixed1.html">Car Loan</a>
+      <a href="current1.html">Personal Loan</a>
+	  <a href="fixed1.html">Business Loan</a>
+      <a href="current1.html">Gold Loan</a>
+    </div>
+  </div> 
+	<a class="part" href="Payment Form.html">&nbsp&nbsp&nbsp&nbspE-Payment</a>
+	<a class="part" href="net.html">&nbsp&nbsp&nbsp&nbspNET Banking</a>
+	<a class="part" href="special.html">&nbsp&nbsp&nbsp&nbspSpecial Offers</a>
+	<a class="part" href="women.html">&nbsp&nbsp&nbsp&nbspWomen Aura</a>
+</nav>
+<br>
+<br>
+<br>	
+<div class="slideshow-container1">
+
+<div class="mySlides1 fade">
+  <img src="curr4.jpg" style="width:100%;height:340px">
+
+</div>
+
+<div class="mySlides1 fade">
+  <img src="curr3.jpg" style="width:99%;height:340px">
+ 
+</div>
+
+<div class="mySlides1 fade">
+  <img src="curr5.jpg" style="width:99%;height:340px">
+  
+</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+</div>
+<br><br>
+<div class="flex-container">
+  <div><span class="fi1">Current Account</span><br><br>
+  <p class="fir">CBK Bank offers you the wide varieties on current account with a valuable intrest. You unlock a world of possibilities when you open a 
+  current account with CBK Bank. Our current account helps you do so much more than just saving for your future.
+  A current account is a type of deposit account that caters to professionals and businessmen. Dealing largely with liquid deposits, this product allows for withdrawal of funds
+  and checks being written against the balance and does not limit the number of transactions in a day.</p>
+</div>
+  <div><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img class="fe" src="curd.png" width="450px" height="200px">
+  </div>
+</div><br><br>
+<div class="flex-container2">
+	<div>
+		<p class="no1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPremium Current Account</p><br>
+		<ul><li>&nbspFeatures</li>
+		<p class="fir">&nbsp&nbsp&nbspIt can be opened as a single or Joint</p><p class="fir">&nbsp&nbsp&nbspMinimum QAB is ₹ 75,000/- at all locations</p>
+		<p class="fir">&nbsp&nbsp&nbspMobile Banking for Individual/ &nbsp&nbsp&nbspProprietorship Accounts only.</p><br>
+		<li>&nbspBonus Features</li>
+		<p class="fir">&nbsp&nbsp&nbspPOS/ QR Code facility is available for &nbsp&nbsp&nbsppayment collection</p><br>
+		<li>&nbspEligibility</li>
+		<p class="fir">&nbsp&nbsp&nbspAll Individuals including Minors of age 14 &nbsp&nbsp&nbspyears and above and traders</p><br>
+		<li>&nbspMost Important</li>
+		<p class="fir">&nbsp&nbsp&nbspFirst Sweep out for ₹ 25,000 will take place &nbsp&nbsp&nbsponly when account balance reaches <br>&nbsp&nbsp&nbsp₹ 5,25,000/- for 15 to 91 days.</p></ul><br><br><br>
+		<a href="Contact Us.html">&nbsp&nbsp<input class="hl" type="submit" value="Need Assistance"></a><a href="current.html"><input class="hl1" type="submit" value="Apply Now"></a>
+	</div>
+	<div>
+		<p class="no1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStart-up Current Account</p><br>
+		<ul><li>&nbspFeatures</li>
+		<p class="fir">&nbsp&nbsp&nbspHand-crafted startup kit with exclusive &nbsp&nbsp&nbspofferings for select customers.</p><p class="fir">&nbsp&nbsp&nbspDedicated Relationship Manager.</p>
+		<p class="fir">&nbsp&nbsp&nbspWaiver of non-maintenance charges upto 2 &nbsp&nbsp&nbspyears of account opening.</p><br>
+		<li>&nbspBonus Features</li>
+		<p class="fir">&nbsp&nbsp&nbspFree NEFT/RTGS/IMPS transactions upto 2 &nbsp&nbsp&nbspyears of account opening.</p><br>
+		<li>&nbspEligibility</li>
+		<p class="fir">&nbsp&nbsp&nbspTurnover as per last ABS should not be &nbsp&nbsp&nbspmore than Rs. 25.00 Crore</p><br>
+		<li>&nbspMost Important</li>
+		<p class="fir">&nbsp&nbsp&nbspAll genuine purpose oriented transactions &nbsp&nbsp&nbspare allowed. There is no restriction on &nbsp&nbsp&nbspnumber of transactions in the current &nbsp&nbsp&nbspaccount</p></ul><br>
+		<a href="Contact Us.html">&nbsp&nbsp<input class="hl" type="submit" value="Need Assistance"></a><a href="current.html"><input class="hl1" type="submit" value="Apply Now"></a>
+	</div>
+	<div>
+		<p class="no1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspScale-up Current Account</p><br>
+		<ul><li>&nbspFeatures</li>
+		<p class="fir">&nbsp&nbsp&nbspAuto and Reverse Sweep facility enabling &nbsp&nbsp&nbspCurrent account holder to earn interest.</p><p class="fir">&nbsp&nbsp&nbspUnlimited Cheque leaves are free</p><br>
+		<li>&nbspBonus Features</li>
+		<p class="fir">&nbsp&nbsp&nbspNo charges for NEFT/ RTGS/IMPS &nbsp&nbsp&nbsptransactions.</p><br>
+		<li>&nbspEligibility</li>
+		<p class="fir">&nbsp&nbsp&nbspTurnover as per last ABS should be more than Rs. 15.00 Crore.</p><br>
+		<li>&nbspMost Important</li>
+		<p class="fir">&nbsp&nbsp&nbsoRs. 2,50,000/- (Charges for non-maintenance of min balance, Rs. 1000/- +GST. However, for 1st year, there will be waiver of these charges).</p></ul><br><br><br>
+		<a href="Contact Us.html">&nbsp&nbsp<input class="hl" type="submit" value="Need Assistance"></a><a href="current.html"><input class="hl1" type="submit" value="Apply Now"></a>
+	</div>
+</div><br>
+
+<div class="rate">
+	<p class="security">WE GIVE YOU MOST ESTEEMED</p>
+	<p class="security1">FACILITIES !</p>
+	</div><br><br>
+	<div><img src="hodi.jpg" width="250px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="hodi1.jpg" width="250px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="hodi2.jpg" width="270px" height="350px"></div>
+	<div><img src="hodi3.png" width="250px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="hodi4.jpg" width="250px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="hodi5.jpg" width="290px"></div>
+	<br><br>
+
+<script>
+var slideIndex1 = 0;
+showSlides1();
+
+function showSlides1() {
+  var i;
+  var slides1 = document.getElementsByClassName("mySlides1");
+  var dots1= document.getElementsByClassName("dot1");
+  for (i = 0; i < slides1.length; i++) {
+    slides1[i].style.display = "none";  
+  }
+  slideIndex1++;
+  if (slideIndex1 > slides1.length) {slideIndex1 = 1}    
+  for (i = 0; i < dots1.length; i++) {
+    dots1[i].className = dots1[i].className.replace(" active1", "");
+  }
+  slides1[slideIndex1-1].style.display = "block";  
+  dots1[slideIndex1-1].className += " active1";
+  setTimeout(showSlides1, 4000); 
+}
+</script>
+<script>
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>

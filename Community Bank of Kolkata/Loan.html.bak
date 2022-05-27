@@ -1,0 +1,61 @@
+<!Doctype html>
+<html>
+<head>
+<title>Loan</title>
+<link rel="stylesheet" href="do.css">
+<link rel=icon href="loan.jpeg" type="image/x-icon">
+</head>
+<body><header><h1></h1></header>
+<div class="topnav">
+    <a class="action" href="Home.html">Home</a>
+    <a class="native" href="Personal">Native</a>
+    <a href="nri.html">NRI</a>	
+	<a href=".html">Associate Partner</a>
+	<a href="News.html">News Section</a>
+	<img src="trust.jpeg" width="120px" height="80px">
+	<div class="topnav-right">
+    <a href="Contact Us.html">Contact Us</a>
+	</div>
+	</div>
+<img src="imp.jpeg" width="100%">
+<p style="color:orange;font-size:35px">Loans - One Step Solutions For Your Financial Needs</p>
+<div class="high">
+	<div class="fo">
+	<p>Build the house you have been thinking of. Buy the car of your dreams. 
+	Take that long-pending vacation. Get your children enrolled in the top schools. Do all this and more with loans from CBK. We offer a wide variety of loans to suit each one of your requirements. Take a look at the products we offer and see for yourself how versatile our range of loans is.</p>
+	<hr color="orange"	></hr>
+	<p class="head">Home Loan</p>
+	<p>Getting a home loan from Community Bank Of Kolkata is quick and easy. We have an accommodating eligibility criteria and we offer lower EMIs at attractive interest rates.</p>
+	<p>Click on the button below to get approved instantly*<a class="quad" href="home loan.html">GET INSTANT E-APPROVAL</a></p><br>
+	<hr color="orange"></hr>	
+	<p class="head">Car Loan</p>
+	<p>With an extensive network of multiple channel partners in a number of locations, ICICI Bank is among the most preferred financiers for car loans in the country. Our tie-ups with the leading automobile manufacturers ensure that you get the best deals. Choose our car loans to enjoy flexible schemes, a simple application process and quick loan processing at the click of a mouse.</p>
+	<p>Click the button below to get approved instantly*<a class="quad" href="car loan.html">GET INSTANT E-APPROVAL</a></p><br>
+	<hr color="orange"></hr>
+	<p class="head">Perosnal Loan</p>
+	<p>What do you desire? A dream holiday? A destination wedding? Some home renovation, or the latest gadgets? Make all of these dreams come true with personal loans from CBK. We offer loans up to ₹20 lakh at interest rates starting from as low as 11.25%.</p>
+	<p>Click the button below to get approved instantly*<a class="quad" href="personal loan.html">GET INSTANT E-APPROVAL</a></p><br>
+	<hr color="orange"></hr>
+	<p class="head">Education Loan</p>
+	<p>Perhaps you have just excelled in your exams and are looking for the right institute to enrol in. Maybe you’re planning to take a break from your career to study further. Or perhaps, you’re looking for the top universities for your children. Whatever be your reason, your search for the best educational institute must not be bogged down with worries about finance. Here’s where CBK's Education Loans can help.</p>
+	<p>Click the button below to apply for your desire loan now*<a class="quad1" href="abroad.html">STUDY ABROAD</a><a class="quad" href="native.html">STUDY NATIVE</a></p><br>
+	<hr color="orange"></hr>
+	<p class="head">Business Loan</p>
+	<p>CBK's Commercial Business Loans offer complete banking solutions for all your financial needs. With our commercial vehicle loans, construction equipment loans, working capital solutions and customised current accounts, we offer the perfect range of financing options for your commercial needs.
+	<p>Click the button below to apply for a loan now*<a class="quad" href="Business.html">APPLY NOW</a></p><br>
+	<hr color="orange"></hr>
+	<p class="head">Gold Loan</p>
+	<p>Avail a loan against gold and gold ornaments from CBK and meet your emergency financial needs without any hassle. With this loan, you can obtain funds against your gold and gold ornaments without having to sell them.
+	<p>Click the button below to apply for a loan now*<a class="quad" href="gold loan.html">APPLY NOW</a></p><br>
+	<hr color="orange"></hr>
+	</div>
+</div><br>
+<img src="fly.jpeg" width="100%" height="400px">
+<nav>
+    <a href="Feedback.html">Feedback</a>
+    <a href="Faq's.html">FAQ'S</a>	
+	<a href="Terms.html">Terms and Conditions</a>
+	<a href="#">&copy; 2021 | Community Bank of Kolkata</a>
+</nav>
+</body>
+</html>

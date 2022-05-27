@@ -1,0 +1,219 @@
+<!Doctype html>
+<html>
+<head>
+<title>NRI</title>
+<link rel="stylesheet" href="nr.css">
+<link rel="stylesheet" href="Look.css">
+<link rel=icon href="nril.jpeg" type="image/x-icon">
+<link rel="stylesheet"
+		href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav class="navigation-bar">
+    <img class="logo" src="trust.jpeg">
+    <a class="other" href="About us.html">Know us</a>
+    <a class="home" href="Home.html">Home</a>
+    <a class="other" href="nri.html">NRI</a>
+	<a href="#">asdf</a>
+		<a href="#">asdf</a>
+				
+	<a class="log" href="login.html">Login/Sign-up</a>
+	<a class="log1" href="abuse.html">Report an abuse</a>
+	<a class="log1" href="debit.html">Debit Card Info</a>
+</nav>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr color="#D3D3D3"></hr>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<div class="input-icons">
+				<i class="fa fa-search icon">
+			</i>
+			&nbsp&nbsp <input onclick="openul()" type="text"  id="searchInput" placeholder="Search for Products and Services...">
+
+<div class="list" id="fruits"><button class="ins" type="button" onclick="closeul()">X</button>
+  <p><a class="search" href="About us.html">Know us</a></p>
+  <p><a class="search" href="nri.html">NRI</a></p>  
+  <p><a class="search" href="Payment Form.html">Payment Form</a></p>  
+  <p><a class="search" href="Loan.html">Loan</a></p>
+  <p><a class="search" href="home loan1.1.html">Home Loan</a></p>    
+  <p><a class="search" href="personal loan.html">Personal Loan</a></p>
+  <p><a class="search" href="native.html">Loan for Study Native</a></p>  
+  <p><a class="search" href="abroad.html">Loan for Study Abroad</a></p>  
+  <p><a class="search" href="saving1.html">Savings Account</a></p>
+  <p><a class="search" href="women.html">Women Aura</a></p>  
+  <p><a class="search" href="Contact Us.html">Contact us</a></p> 
+  <p><a class="search" href="#Covid-19 Finance">Covid-19 Finance</a></p>
+  <p><a class="search" href="#Disaster Finance">Disaster Finance</a></p>  
+  <p><a class="search" href="special.html">Special Offers</a></p>  
+  <p><a class="search" href="fixed1.html">Fixed Account</a></p>  
+  <p><a class="search" href="current1.html">Current Account</a></p>  
+  <p><a class="search" href="car loan1.1.html">Car Loan</a></p>
+  <p><a class="search" href="edu1.1.html">Education Loan</a></p>  
+  <p><a class="search" href="personal1.1.html">Personal Loan</a></p>  
+  <p><a class="search" href="Business1.1.html">Business Loan</a></p>
+  <p><a class="search" href="gold1.1.html">Gold Loan</a></p>    
+</div>
+	<script>$("#searchInput").on('keyup', function() {
+  var searchValue = $(this).val();
+  searchAndFilter(searchValue)
+});
+
+function searchAndFilter(searchTerm) {
+  if (searchTerm == '') {
+    $("#fruits p").hide()
+  } else {
+    $("#fruits p").each(function() {
+      var currentText = $(this).text();
+      currentText = currentText.toUpperCase();
+      searchTerm = searchTerm.toUpperCase();
+      if (currentText.indexOf(searchTerm) >= 0) {
+        $(this).show();
+      }
+    });
+  }
+}
+
+$(document).ready(function() {
+  $("#fruits p").hide();
+});
+</script>
+<script>
+function openul() {
+  document.getElementById("fruits").style.display = "block";
+}
+
+function closeul() {
+  document.getElementById("fruits").style.display = "none";
+}
+</script>
+<br>
+<br>
+<nav class="parthead">
+	<div class="dropdown">
+    <button class="dropbtn">&nbsp&nbsp&nbsp&nbspAccount
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="saving1.html">Savings Account</a>
+      <a href="fixed1.html">Fixed Account</a>
+      <a href="current1.html">Current Account</a>
+    </div>
+	</div>
+	<div class="dropdown">
+    <button class="dropbtn">&nbsp&nbsp&nbsp&nbspLoan
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="home loan1.1.html">Home Loan</a>
+      <a href="car loan1.1.html">Car Loan</a>
+	  <a href="edu1.1.html">Education Loan</a>
+      <a href="personal1.1.html">Personal Loan</a>
+	  <a href="business1.1.html">Business Loan</a>
+      <a href="gold1.1.html">Gold Loan</a>
+    </div>
+  </div> 
+	<a class="part" href="Payment Form.html">&nbsp&nbsp&nbsp&nbspE-Payment</a>
+	<a class="part" href="net.html">&nbsp&nbsp&nbsp&nbspNET Banking</a>
+	<a class="part" href="special.html">&nbsp&nbsp&nbsp&nbspSpecial Offers</a>
+	<a class="part" href="women.html">&nbsp&nbsp&nbsp&nbspWomen Aura</a>
+</nav>
+<br>
+<br>
+<br>
+<div class="slideshow-container1">
+
+<div class="mySlides1 fade">
+  <img src="nri2.png" style="width:100%">
+
+</div>
+
+<div class="mySlides1 fade">
+  <img src="nri3.jpg" style="width:99%">
+ 
+</div>
+
+<div class="mySlides1 fade">
+  <img src="nri1.jpg" style="width:99%">
+  
+</div>
+
+</div><br>
+<div style="text-align:center">
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+</div><br><br>
+<p style="color:orange;font-size:35px">NRI Loans - One Step Solutions For all NRI's Financial Needs</p><br>
+<div class="higher">
+	<div class="folk">
+	<p><br>Build the house you have been thinking of. Buy the car of your dreams. 
+	Take that long-pending vacation. Get your children enrolled in the top schools. Do all this and more with loans from CBK. We offer a wide variety of loans to suit each one of your requirements. Take a look at the products we offer and see for yourself how versatile our range of loans is.</p><br>
+	<hr color="#D3D3D3"	></hr>
+	<p class="both">NRI Home Loan</p>
+	<p><br>Getting a home loan from Community Bank Of Kolkata is quick and easy. We have an accommodating eligibility criteria and we offer lower EMIs at attractive interest rates.</p>
+	<p><br>Click on the button below to get approved instantly*<a class="quad" href="home loan1.html">GET INSTANT E-APPROVAL</a></p><br>
+	<hr color="#D3D3D3"></hr>	
+	<p class="both">NRI Car Loan</p>
+	<p><br>With an extensive network of multiple channel partners in a number of locations, ICICI Bank is among the most preferred financiers for car loans in the country. Our tie-ups with the leading automobile manufacturers ensure that you get the best deals. Choose our car loans to enjoy flexible schemes, a simple application process and quick loan processing at the click of a mouse.</p>
+	<p><br>Click the button below to get approved instantly*<a class="quad" href="car loan1.html">GET INSTANT E-APPROVAL</a></p><br>
+	<hr color="#D3D3D3"></hr>
+	<p class="both">NRI Perosnal Loan</p>
+	<p><br>What do you desire? A dream holiday? A destination wedding? Some home renovation, or the latest gadgets? Make all of these dreams come true with personal loans from CBK. We offer loans up to ₹20 lakh at interest rates starting from as low as 11.25%.</p>
+	<p><br>Click the button below to get approved instantly*<a class="quad" href="personal loan1.html">GET INSTANT E-APPROVAL</a></p><br>
+	<hr color="#D3D3D3"></hr>
+	</div>
+</div><br>
+<nav class="foot">
+    <a class="foot1" href="Contact Us.html">Help and Contact</a>
+    <a class="foot1" href="Feedback.html">Faq's and Ratings</a>
+	<a class="foot1" href="Terms.html">Terms and Conditions</a>
+	<a class="foot1" href="#">&copy; 2022 | Community Bank of Kolkata</a>
+</nav>
+<script>
+var slideIndex1 = 0;
+showSlides1();
+
+function showSlides1() {
+  var i;
+  var slides1 = document.getElementsByClassName("mySlides1");
+  var dots1= document.getElementsByClassName("dot1");
+  for (i = 0; i < slides1.length; i++) {
+    slides1[i].style.display = "none";  
+  }
+  slideIndex1++;
+  if (slideIndex1 > slides1.length) {slideIndex1 = 1}    
+  for (i = 0; i < dots1.length; i++) {
+    dots1[i].className = dots1[i].className.replace(" active1", "");
+  }
+  slides1[slideIndex1-1].style.display = "block";  
+  dots1[slideIndex1-1].className += " active1";
+  setTimeout(showSlides1, 4000); 
+}
+</script>
+<script>
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>

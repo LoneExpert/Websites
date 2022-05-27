@@ -1,0 +1,102 @@
+.hedi{
+	font-size:20px;
+	color:orange;
+	font-weight:bold;
+}
+.imb{
+	border-left:2px solid red;
+	border-bottom:2px solid red;
+}
+.collapsible {
+  background-color: #53595D;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: orange;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column1 {
+  float: left;
+  width: 27%;
+  margin-left: 450px;
+  padding: 0 8px;
+}
+.column2 {
+  float: left;
+  width: 27%;
+  margin-left: 5px;
+  margin-top:10px;
+  padding: 0 8px;
+}
+.column3 {
+  float: left;
+  width: 27%;
+  padding: 0 8px;
+  margin-left: 103px;
+  margin-top:10px;
+}
+.column4 {
+  float: left;
+  width: 27%;
+  margin-left: 127px;
+  padding: 0 8px;
+  margin-top:10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button1 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button1:hover {
+  background-color: #555;
+}
+#more {display: none;}
+#more1 {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}

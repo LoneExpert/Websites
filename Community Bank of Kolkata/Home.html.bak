@@ -1,0 +1,634 @@
+<!Doctype html>
+<html>
+<head>
+<title>cbk.com.in</title>
+<link rel="icon" href="trust.jpeg" type="image/x-icon">
+<link rel="stylesheet" href="Look.css">
+<link rel="stylesheet"
+		href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav class="navigation-bar">
+    <img class="logo" src="trust.jpeg">
+    <a class="other" href="About us.html">Know us</a>
+    <a class="home" href="Home.html">Home</a>
+    <a class="other" href="nri.html">NRI</a>
+	<a href="#">asdf</a>
+		<a href="#">asdf</a>
+				
+	<a class="log" href="login.html">Login/Sign-up</a>
+	<a class="log1" href="abuse.html">Report an abuse</a>
+	<a class="log1" href="debit.html">Debit Card Info</a>
+</nav>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr color="#D3D3D3"></hr>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<div class="input-icons">
+				<i class="fa fa-search icon">
+			</i>
+			&nbsp&nbsp <input onclick="openul()" type="text"  id="searchInput" placeholder="Search for Products and Services...">
+
+<div class="list" id="fruits"><button class="ins" type="button" onclick="closeul()">X</button>
+  <p><a class="search" href="About us.html">Know us</a></p>
+  <p><a class="search" href="nri.html">NRI</a></p>  
+  <p><a class="search" href="Payment Form.html">Payment Form</a></p>  
+  <p><a class="search" href="Loan.html">Loan</a></p>
+  <p><a class="search" href="home loan1.1.html">Home Loan</a></p>    
+  <p><a class="search" href="personal loan.html">Personal Loan</a></p>
+  <p><a class="search" href="native.html">Loan for Study Native</a></p>  
+  <p><a class="search" href="abroad.html">Loan for Study Abroad</a></p>  
+  <p><a class="search" href="saving1.html">Savings Account</a></p>
+  <p><a class="search" href="women.html">Women Aura</a></p>  
+  <p><a class="search" href="Contact Us.html">Contact us</a></p> 
+  <p><a class="search" href="#Covid-19 Finance">Covid-19 Finance</a></p>
+  <p><a class="search" href="#Disaster Finance">Disaster Finance</a></p>  
+  <p><a class="search" href="special.html">Special Offers</a></p>  
+  <p><a class="search" href="About us.html">Know us</a></p>
+  <p><a class="search" href="fixed1.html">Fixed Account</a></p>  
+  <p><a class="search" href="current1.html">Current Account</a></p>  
+  <p><a class="search" href="car loan1.1.html">Car Loan</a></p>
+  <p><a class="search" href="edu1.1.html">Education Loan</a></p>  
+  <p><a class="search" href="personal1.1.html">Personal Loan</a></p>  
+  <p><a class="search" href="Business1.1.html">Business Loan</a></p>
+  <p><a class="search" href="gold1.1.html">Gold Loan</a></p>     
+</div>
+	<script>$("#searchInput").on('keyup', function() {
+  var searchValue = $(this).val();
+  searchAndFilter(searchValue)
+});
+
+function searchAndFilter(searchTerm) {
+  if (searchTerm == '') {
+    $("#fruits p").hide()
+  } else {
+    $("#fruits p").each(function() {
+      var currentText = $(this).text();
+      currentText = currentText.toUpperCase();
+      searchTerm = searchTerm.toUpperCase();
+      if (currentText.indexOf(searchTerm) >= 0) {
+        $(this).show();
+      }
+    });
+  }
+}
+
+$(document).ready(function() {
+  $("#fruits p").hide();
+});
+</script>
+<script>
+function openul() {
+  document.getElementById("fruits").style.display = "block";
+}
+
+function closeul() {
+  document.getElementById("fruits").style.display = "none";
+}
+</script>
+<br>
+<br>
+<nav class="parthead">
+	<div class="dropdown">
+    <button class="dropbtn">&nbsp&nbsp&nbsp&nbspAccount
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="saving1.html">Savings Account</a>
+      <a href="fixed1.html">Fixed Account</a>
+      <a href="current1.html">Current Account</a>
+    </div>
+	</div>
+	<div class="dropdown">
+    <button class="dropbtn">&nbsp&nbsp&nbsp&nbspLoan
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="home loan1.1.html">Home Loan</a>
+      <a href="car loan1.1.html">Car Loan</a>
+	  <a href="edu1.1.html">Education Loan</a>
+      <a href="personal1.1.html">Personal Loan</a>
+	  <a href="business1.1.html">Business Loan</a>
+      <a href="gold1.1.html">Gold Loan</a>
+    </div>
+  </div> 
+	<a class="part" href="Payment Form.html">&nbsp&nbsp&nbsp&nbspE-Payment</a>
+	<a class="part" href="net.html">&nbsp&nbsp&nbsp&nbspNET Banking</a>
+	<a class="part" href="special.html">&nbsp&nbsp&nbsp&nbspSpecial Offers</a>
+	<a class="part" href="women.html">&nbsp&nbsp&nbsp&nbspWomen Aura</a>
+</nav>
+<br>
+<br>
+<br>
+<div class="slideshow-container1">
+
+<div class="mySlides1 fade">
+  <img src="75.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides1 fade">
+  <a href="gold1.1.html">
+  <img src="gl.jpg" style="width:99%"></a>
+ 
+</div>
+
+<div class="mySlides1 fade">
+	<a href="personal1.1.html">
+  <img src="heading.jpeg" style="width:99%"></a>
+  
+</div>
+
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+</div>
+
+<br>
+<div class="tab">
+  <button class="hidden"><p style="color:white">Find the Right Credit Card u</p></button>
+  <button class="hidden"><p style="color:white">Eligibility Criteria</p></button>
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Find the Right Credit Card For You</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Eligibility Criteria</button><br><br><br><br>
+			<p  class="info">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Apply for Credit Card now from Community Bank of Kolkata and become our full-time member</p>
+</div>
+
+<div id="London" class="tabcontent">
+<div class="tab1">
+  <button class="hidden"><p style="color:white">Find the Right Credit Card u</p></button>
+  <button class="tablinks1" onclick="openCit(event, 'London1')" id="default">Credit Card</button>
+  <button class="tablinks1" onclick="openCit(event, 'Paris1')">Women Credit Card</button>
+  <button class="tablinks1" onclick="openCit(event, 'new1')">Membership Credit Card</button>
+  <button class="tablinks1" onclick="openCit(event, 'ne')">VIP Credit Card</button><br><br><br>
+</div>
+<br>
+<div id="London1" class="tabcontent1">
+  <p class="ann">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Your Net Annual Income(In Lakhs)</p>
+  <div class="tab2">
+  <button class="hidden"><p style="color:white">Find the Right Credit Card u</p></button>
+  <button class="hidden"><p style="color:white">Eligibility Criteria</p></button>
+  <button class="tablinks2" onclick="openCi(event, 'London2')" id="default1">2.5</button>
+  <button class="tablinks2" onclick="openCi(event, 'Paris3')">5</button>
+  <button class="tablinks2" onclick="openCi(event, 'new2')">10</button>
+  <button class="tablinks2" onclick="openCi(event, 'Paris2')">15</button><br><br><br>
+</div>
+<div id="London2" class="tabcontent2">
+<p class="card">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp&nbsp&nbsp&nbsp Azure Chip Credit Card</p><br>
+<div id="main">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div><img src="fcredit.jpg" width="250px"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<ul class="points"><li>No Joining Fee No Annual Fee</li>
+  <br><li>Earn PAYBACK Points on your spends except fuel</li>
+  <br><li>Min. 15% savings on dining at participating restaurants</li>
+  <br><li>Save on 1% fuel surcharge, waived off at HPCL petrol pumps</li></ul>
+</div>
+</div>
+<div id="Paris3" class="tabcontent2">
+<p class="card">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp&nbsp&nbsp&nbsp Stygian Chip Credit Card</p><br>
+<div id="main">	
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div><img src="vcredit.jpg" width="250px"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<ul class="points"><li>Joining Fee + GST</li>
+  <br><li>Earn up to 10,000 additional reward points</li>
+  <br><li>Buy 1, get 1 movie ticket free at BookMyShow</li>
+  <br><li>One complimentary railway lounge visit per quarter</li></ul>
+</div>
+</div>
+<div id="new2" class="tabcontent2">
+<p class="card">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp&nbsp&nbsp&nbsp Gold Chip Credit Card</p><br>
+<div id="main">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div><img src="gcredit.jpg" width="250px"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<ul class="points"><li>Exclusive privileges - entertainment, dining, wellness and golf</li>
+  <br><li>Complimentary airport lounge access</li>
+  <br><li>Buy 1, get 1 movie ticket free at BookMyShow</li>
+  <br><li>Welcome Vouchers on Shopping and Travel worth Rs 5000</li></ul>
+</div>
+</div>
+<div id="Paris2" class="tabcontent2">
+<p class="card">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp&nbsp&nbsp&nbsp Platinum Chip Credit Card</p><br>
+<div id="main">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div><img src="pcredit.jpg" width="250px"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<ul class="points"><li>Exclusive privileges - entertainment, dining, wellness and golf</li>
+  <br><li>Complimentary membership to the Dreamfolks DragonPass programme</li>
+  <br><li>Buy 1, get 1 movie ticket free at BookMyShow</li>
+  <br><li>Welcome Vouchers on Shopping and Travel worth Rs 10,000</li></ul>
+</div>
+</div>
+<br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button class="app" type="button"><a href="crd.html">Apply Now</a></button>
+</div>
+<div id="new1" class="tabcontent1">
+<p class="card">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp&nbsp&nbsp&nbsp Membership Credit Card</p><br>
+<div id="main">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div><img src="elitecredit2.jpg" width="250px"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<ul class="points"><li>Exclusive privileges - entertainment, dining, wellness, golf, Cricket</li>
+  <br><li>Complimentary membership to the Community Bank Of Kolkata permanent</li>
+  <br><li>Getting an off on electronics products</li>
+  <br><li>Reduce rate in 3-5 star hotels of India, Usa, Europe</li></ul>
+</div>
+<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button class="app" type="button"><a href="crd.html">Become Our Member</a></button>
+</div>
+<div id="ne" class="tabcontent1">
+<p class="card">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp&nbsp&nbsp&nbsp VIP Credit Card</p><br>
+	<div id="main1">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div><img src="elitecredit1.jpg" width="300px"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<ul class="points"><li>Exclusive privileges - entertainment, dining, wellness, golf, Cricket and many other facilities</li>
+  <br><li>Be the first one to try our beta product</li>
+  <br><li>Get a valuable off in premium resorts</li>
+  <br><li>Reduce rate in 3-5 star hotels of India Usa, Europe, Australia</li></ul>
+</div>
+<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button class="app" type="button"><a href="crd.html">Apply Now</a></button>
+  </div>
+<div id="Paris1" class="tabcontent1">
+<p class="card">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp&nbsp&nbsp&nbsp Signora Credit Card</p><br>
+	<div id="main1">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div><img src="wcredit1.jpg" width="300px"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<ul class="points"><li>Any type of woman can apply for credit card</li>
+  <br><li>Get a valuable off in products rate</li>
+  <br><li>Get a valuable off in festive seasons</li>
+  <br><li>Running discount for shopping bills and beauty products starting from 10% off</li></ul>
+</div>
+<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button class="app" type="button"><a href="wcrd.html">Apply Now</a></button>
+  </div>
+</div>
+</div>
+<div id="Paris" class="tabcontent">
+  <p class="card">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp&nbsp&nbsp&nbsp Eligibility Criteria for each credit cards</p><br>
+<div class="tab3">
+  <button class="tablinks3" onclick="openC(event, 'London3')" id="default2">Basic Requirements</button>
+  <button class="tablinks3" onclick="openC(event, 'London4')">Azure Credit Card</button>
+  <button class="tablinks3" onclick="openC(event, 'London5')">Stygian Credit Card</button>
+  <button class="tablinks3" onclick="openC(event, 'Paris4')">Gold Credit Card</button>
+  <button class="tablinks3" onclick="openC(event, 'new3')">Platinum Credit Card</button>
+  <button class="tablinks3" onclick="openC(event, 'Paris5')">Membership and VIP Credit Card</button><br><br><br><br><br>
+</div>
+<div id="London3" class="tabcontent3">
+	<p class="card">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp&nbsp&nbsp&nbsp Basic Requirements for credit card approval</p><br>
+	<div id="main2">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div><img src="collage.jpeg" width="300px"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<ul class="points"><li>Applicant must have a minimum age of 18 years</li>
+  <br><li>The minimum income salary must be between Rs.1 lakh and Rs.2.5 lakh</li>
+  <br><li>Applicant should either be salaried or self-employed</li>
+  <br><li>Passport-size photographs</li>
+  <br><li>Proof of identity (copy of PAN, Aadhaar, passport, etc.)</li>
+  <br><li>Proof of residence (utility bills, Driving Licence, PAN, Aadhaar, etc.)</li>
+  <br><li>Latest salary slips</li>
+  <br><li>Form 16</li>
+  <br><li>Bank statements</li></ul>
+  <ul class="points">If you are self-employed, you will need to submit:<li>Income proof</li>
+  <br><li>Statement of accounts</li>
+  <br><li>Proof of business</li></ul>
+  <ul class="points">For women credit card:<li>Must have fixed account in the bank</li>
+  <br><li>Passport-size photographs</li>
+  <br><li>Proof of identity (copy of PAN, Aadhaar, passport, etc.)</li>
+  <br><li>Bank statements</li>
+  <br><li>Applicant must have a minimum age of 18 years</li></ul>
+  <br>
+</div>
+</div>
+<div id="London4" class="tabcontent3">
+	<p class="card">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp&nbsp&nbsp&nbsp Azure Credit Card</p><br>
+	<div id="main1">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div><img src="fcredit.jpg" width="250px"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<ul class="points"><li>The minimum annual income for azure credit card is between Rs. 1 Lakh to Rs. 2.5 Lakh</li>
+  <br><li>You should have fixed deposit in a bank</li>
+  <br><li>The minimum Fixed Deposit amount is ₹ 20,000</li>
+  <br><li>The minimum tenure of the Fixed Deposit has to be 180 days</li>
+  <br><li>The minimum credit score for azure credit card is 750 to 780</li>
+  <br><li>If the fixed deposit is in the name of Third parties/Partnership firms/HUF/Society/Trust/Companies, the approval will be cancel</li>
+  <br><li>For minors and foreign nationals, the azure credit card can't be approved</li></ul>
+</div>
+</div>
+<div id="London5" class="tabcontent3">
+	<p class="card">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp&nbsp&nbsp&nbsp Stygian Credit Card</p><br>
+	<div id="main1">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div><img src="vcredit.jpg" width="250px"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<ul class="points"><li>The minimum annual income for stygian credit card is between Rs. 2.6 Lakh to Rs. 5 Lakh</li>
+  <br><li>You should have fixed deposit in a bank</li>
+  <br><li>The minimum Fixed Deposit amount is ₹ 30,000</li>
+  <br><li>The minimum tenure of the Fixed Deposit has to be 180 days</li>
+  <br><li>The minimum credit score for stygian credit card is 780 to 800</li>
+  <br><li>If the fixed deposit is in the name of Third parties/Partnership firms/HUF/Society/Trust/Companies, the approval will be cancel</li>
+  <br><li>For minors and foreign nationals, the stygian credit card can't be approved</li></ul>
+</div>
+</div>
+<div id="Paris4" class="tabcontent3">
+<p class="card">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp&nbsp&nbsp&nbsp Gold Credit Card</p><br>
+	<div id="main1">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div><img src="gcredit.jpg" width="250px"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<ul class="points"><li>The minimum annual income for gold credit card is between Rs. 5.1 Lakh to Rs. 10 Lakh</li>
+  <br><li>You should have fixed deposit in a bank</li>
+  <br><li>The minimum Fixed Deposit amount is ₹ 50,000</li>
+  <br><li>The minimum tenure of the Fixed Deposit has to be 180 days</li>
+  <br><li>The minimum credit score for gold credit card is 800 to 850</li>
+  <br><li>If the fixed deposit is in the name of Third parties/Partnership firms/HUF/Society/Trust/Companies, the approval will be cancel</li>
+  <br><li>For minors and foreign nationals, the gold credit card can't be approved</li></ul>
+</div>
+</div>
+<div id="new3" class="tabcontent3">
+	<p class="card">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp&nbsp&nbsp&nbsp Platinum Credit Card</p><br>
+	<div id="main1">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div><img src="pcredit.jpg" width="250px"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<ul class="points"><li>The minimum annual income for platinum credit card is between Rs. 10.1 Lakh to Rs. 15 Lakh</li>
+  <br><li>You should have fixed deposit in a bank</li>
+  <br><li>The minimum Fixed Deposit amount is ₹ 70,000</li>
+  <br><li>The minimum tenure of the Fixed Deposit has to be 180 days</li>
+  <br><li>The minimum credit score for platinum credit card is 850 to 880 to 900</li>
+  <br><li>If the fixed deposit is in the name of Third parties/Partnership firms/HUF/Society/Trust/Companies, the approval will be cancel</li>
+  <br><li>For minors and foreign nationals, the platinum credit card can't be approved</li></ul>
+</div>
+</div>
+<div id="Paris5" class="tabcontent3">
+<p class="card">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp&nbsp&nbsp&nbsp Membership and VIP credit card </p><br>
+	<div id="main3">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div><img src="collage1.jpeg" width="300px"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<ul class="points1">Membership Credit Card<li class="points">Applicant must have a minimum age of 28 years</li>
+  <br><li class="points">The applicant must be a valuable person in world</li>
+  <br><li class="points">Applicant should either be salaried or self-employed</li>
+  <br><li class="points">Applicant should have an account in the bank</li></ul><br>
+  <ul class="points1">VIP Credit Card<li class="points">Applicant must have a minimum age of 18 years</li>
+  <br><li class="points">Applicant should either be salaried or self-employed</li>
+  <br><li class="points">If applicant is not salaried then he/she should  be connected to a valuable person</li></ul><br>
+</div>
+</div>
+</div>
+<div class="rate">
+	<p class="security">WE TAKE YOUR SECURITY</p>
+	<p class="security1">SERIOUSLY !</p><br>
+	<div id="main4">
+	<p class="security2">Peace of mind for you as we have the most <br>advanced technology & protection</p>&nbsp&nbsp<img src="line.png" width="10px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img class="bo" src="3.1.png" width="40px"><span>&nbsp2 Factor i-safe<br>&nbspauthentifications</span>&nbsp&nbsp&nbsp&nbsp<img src="line.png" width="10px">&nbsp&nbsp&nbsp&nbsp&nbsp <img src="3.2.jpg" width="40px"><span>&nbspEnd-to-end 256 bit<br>&nbspEncryption</span>&nbsp&nbsp&nbsp&nbsp<img src="line.png" width="10px">&nbsp&nbsp&nbsp&nbsp&nbsp <img src="3.jpg" width="40px"><span>&nbsp2 Factor i-safe<br>&nbspauthentifications</span>
+	</div>
+</div>
+<marquee class="mar" bgcolor="red"><p style="color:white">Important Notice: As per the RBI Guidelines for COVID-19, it is mandotary for customer and staff members to wear mask and follow COVID-19 Guidelines </marquee></p>
+<br><br>
+<center><p class="hr"><span class="no">-----------------</span>&nbsp&nbspTRENDING DEALS&nbsp&nbsp<span class="no">----------------</span></p></center>
+<center><br><p class="great"><span class="strong">GREAT OFFERS FOR</span>&nbspGREAT EXPERIENCES</p></center>
+<br><br>
+<div class="tab5">
+  <button class="hidden"><p style="color:white">Find the Right Credit Card u</p></button>
+  <button class="hidden"><p style="color:white">Eligibility Criteria</p></button>
+  <button class="hidden"><p style="color:white">Eligibility Criteria</p></button>
+  <button class="tablinks5" onclick="ope(event, 'London6')" id="default4">Finances</button>
+  <button class="tablinks5" onclick="ope(event, 'Paris6')">Offers</button><br><br><br><br>
+</div>
+<div id="London6" class="tabcontent5">
+<div class="flex-container">
+  <div><center><span class="fi" id="Covid-19 Finance">COVID-19 FINANCE</span><br><img class="bor" src="collage2.jpeg" width="300px" height="250px"></center><br><ul class="points"><li>CBK Bank has started a
+  new finance scheme that help all those people who are hospitalized due to covid-19.</li>
+  <br><li>CBK Bank gives you 50% off in hospital bills.</li>
+  <br><li>To apply for it, fill the form first by clicking on E-instant approval.</li>
+  <br><li>A new fees slip receipt will be generated and will be send it you by mail</li>
+  <br><li>Show the fees receipt to the counter and pay your bills</li>
+  <center><br><button class="app" type="button"><a href="COVID-19 Finance.html">Apply Now</a></button></center></ul>
+  </div>
+  <div><center><span class="fi" id="Disaster Finance">DISASTER FINANCE</span><br><br><img src="collage3.jpeg" width="300px" height="230px"></center><br><ul class="points"><li>CBK Bank has started a
+  one more, a new finance scheme that help all those people who lost their home or belongings due to disaster.</li>
+ <br><li>CBK Bank gives you 10-15 Lakh loan to them who are affected badly.</li>
+ <br><li>To apply for it, fill the form first by clicking on E-instant approval.</li>  
+ <center><br><br><br><br><button class="app" type="button"><a href="Disaster Finance.html">Apply Now</a></button></center></ul>
+  </div>
+
+</div>
+</div>
+
+<div id="Paris6" class="tabcontent5">
+	<div class="flex-container1">
+  <div>&nbsp<img src="amazon.png"width="100px"><br><br><p class="boxu">&nbsp Usha</p><p class="off">&nbsp&nbsp10% off on that product</p>
+  &nbsp<img src="usha.jpeg" width="100px"><img src="usha4.jpeg" width="150px"><br>&nbsp&nbsp<button class="apps" type="button"><a href="special.html"><p style="color:orange;font-weight:bold;">Know More&nbsp<img src="arrow.jpg" width="20px"></p></a></button></div>
+  <div>&nbsp<img src="amazon.png"width="100px"><br><br><p class="boxu">&nbsp HP</p><p class="off">&nbsp&nbsp20% off on that product</p>
+  &nbsp<img src="usha3.jpeg" width="100px"><img src="usha2.jpeg" width="100px" height="85px"><br>&nbsp&nbsp<button class="apps" type="button"><a href="special.html"><p style="color:orange;font-weight:bold;"><br><br>Know More&nbsp<img src="arrow.jpg" width="20px"></p></a></button></div>
+  <div>&nbsp<img src="amazon.png"width="100px"><br><br><p class="boxu">&nbsp Whirpool</p><p class="off">&nbsp&nbsp50% off on that product</p>
+  &nbsp<img src="whi1.jpeg" width="100px"><img src="whi2.jpeg" width="150px" height="100px">&nbsp<br>&nbsp&nbsp<button class="apps" type="button"><a href="special.html"><p style="color:orange;font-weight:bold;"><br>Know More&nbsp<img src="arrow.jpg" width="20px"></p></a></button></div>
+  <div>
+  &nbsp<img src="amazon.png"width="100px"><br><br><p class="boxu">&nbsp Whirpool</p><p class="off">&nbsp&nbsp50% off on that product</p>
+  &nbsp<img src="sony.jpeg" width="100px"><img src="sony2.jpeg" width="150px" height="100px">&nbsp<br>&nbsp&nbsp<button class="apps" type="button"><a href="special.html"><p style="color:orange;font-weight:bold;"><br>Know More&nbsp<img src="arrow.jpg" width="20px"></p></a></button></div>
+</div>
+<div class="flex-container1">
+  <div> 
+  &nbsp<img src="flipkart.jpg"width="100px"><br><br><p class="boxu">&nbsp Samsung</p><p class="off">&nbsp&nbsp28% off on that product</p>
+  &nbsp<img src="so1.jpeg" width="100px"><img src="so.jpeg" width="100px"><br>&nbsp&nbsp<button class="apps" type="button"><a href="special.html"><p style="color:orange;font-weight:bold;">Know More&nbsp<img src="arrow.jpg" width="20px"></p></a></button></div>
+  <div>  &nbsp<img src="flipkart.jpg"width="100px"><br><br><p class="boxu">&nbsp Real Me</p><p class="off">&nbsp&nbsp15% off on that product</p>
+  &nbsp<img src="real.1.jpeg" width="100px" height="100px"><img src="real1.2.jpeg" width="100px" height="100px"><br>&nbsp&nbsp<button class="apps" type="button"><a href="special.html"><p style="color:orange;font-weight:bold;">Know More&nbsp<img src="arrow.jpg" width="20px"></p></a></button>
+  </div>
+  <div>
+  &nbsp<img src="flipkart.jpg"width="100px"><br><br><p class="boxu">&nbsp Acer</p><p class="off">&nbsp&nbsp35% off on that product</p>
+  &nbsp<img src="acer.jpg" width="100px" height="100px"><img src="acer3.jpg" width="100px" height="100px"><br>&nbsp&nbsp<button class="apps" type="button"><a href="special.html"><p style="color:orange;font-weight:bold;">Know More&nbsp<img src="arrow.jpg" width="20px"></p></a></button>
+  </div>
+  <div>
+    &nbsp<img src="flipkart.jpg"width="100px"><br><br><p class="boxu">&nbsp Asus</p><p class="off">&nbsp&nbsp24% off on that product</p>
+  &nbsp<img src="asus.jpg" width="100px" height="100px"><img src="asus1.jpg" width="100px" height="100px"><br>&nbsp&nbsp<button class="apps" type="button"><a href="special.html"><p style="color:orange;font-weight:bold;">Know More&nbsp<img src="arrow.jpg" width="20px"></p></a></button>
+  </div>
+</div>
+</div>
+
+<br>
+
+<nav class="foot">
+    <a class="foot1" href="Contact Us.html">Help and Contact</a>
+    <a class="foot1" href="Feedback.html">Faq's and Ratings</a>
+	<a class="foot1" href="Terms.html">Terms and Conditions</a>
+	<a class="foot1" href="#">&copy; 2022 | Community Bank of Kolkata</a>
+</nav>
+<script>
+var slideIndex1 = 0;
+showSlides1();
+
+function showSlides1() {
+  var i;
+  var slides1 = document.getElementsByClassName("mySlides1");
+  var dots1= document.getElementsByClassName("dot1");
+  for (i = 0; i < slides1.length; i++) {
+    slides1[i].style.display = "none";  
+  }
+  slideIndex1++;
+  if (slideIndex1 > slides1.length) {slideIndex1 = 1}    
+  for (i = 0; i < dots1.length; i++) {
+    dots1[i].className = dots1[i].className.replace(" active1", "");
+  }
+  slides1[slideIndex1-1].style.display = "block";  
+  dots1[slideIndex1-1].className += " active1";
+  setTimeout(showSlides1, 4000); 
+}
+</script>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+document.getElementById("defaultOpen").click();
+</script>
+<script>
+function openCit(evt1, cityName1) {
+  var i, tabcontent1, tablinks1;
+  tabcontent1 = document.getElementsByClassName("tabcontent1");
+  for (i = 0; i < tabcontent1.length; i++) {
+    tabcontent1[i].style.display = "none";
+  }
+  tablinks1 = document.getElementsByClassName("tablinks1");
+  for (i = 0; i < tablinks1.length; i++) {
+    tablinks1[i].className = tablinks1[i].className.replace(" activ", "");
+  }
+  document.getElementById(cityName1).style.display = "block";
+  evt1.currentTarget.className += " activ";
+}
+
+document.getElementById("default").click();
+</script>
+<script>
+function openCi(evt2, cityName2) {
+  var i, tabcontent1, tablinks1;
+  tabcontent2 = document.getElementsByClassName("tabcontent2");
+  for (i = 0; i < tabcontent2.length; i++) {
+    tabcontent2[i].style.display = "none";
+  }
+  tablinks2 = document.getElementsByClassName("tablinks2");
+  for (i = 0; i < tablinks2.length; i++) {
+    tablinks2[i].className = tablinks2[i].className.replace(" acti", "");
+  }
+  document.getElementById(cityName2).style.display = "block";
+  evt2.currentTarget.className += " acti";
+}
+
+document.getElementById("default1").click();
+</script>
+<script>
+function openC(evt3, cityName3) {
+  var i, tabcontent3, tablinks3;
+  tabcontent3 = document.getElementsByClassName("tabcontent3");
+  for (i = 0; i < tabcontent3.length; i++) {
+    tabcontent3[i].style.display = "none";
+  }
+  tablinks3 = document.getElementsByClassName("tablinks3");
+  for (i = 0; i < tablinks3.length; i++) {
+    tablinks3[i].className = tablinks3[i].className.replace(" act", "");
+  }
+  document.getElementById(cityName3).style.display = "block";
+  evt3.currentTarget.className += " act";
+}
+
+document.getElementById("default2").click();
+</script>
+<script>
+function open(evt4, cityName4) {
+  var i, tabcontent4, tablinks4;
+  tabcontent4 = document.getElementsByClassName("tabcontent4");
+  for (i = 0; i < tabcontent4.length; i++) {
+    tabcontent4[i].style.display = "none";
+  }
+  tablinks4 = document.getElementsByClassName("tablinks4");
+  for (i = 0; i < tablinks4.length; i++) {
+    tablinks4[i].className = tablinks4[i].className.replace(" ac", "");
+  }
+  document.getElementById(cityName4).style.display = "block";
+  evt4.currentTarget.className += " ac";
+}
+
+document.getElementById("default3").click();
+</script>
+<script>
+function ope(evt5, cityName5) {
+  var i, tabcontent5, tablinks5;
+  tabcontent5 = document.getElementsByClassName("tabcontent5");
+  for (i = 0; i < tabcontent5.length; i++) {
+    tabcontent5[i].style.display = "none";
+  }
+  tablinks5 = document.getElementsByClassName("tablinks5");
+  for (i = 0; i < tablinks5.length; i++) {
+    tablinks5[i].className = tablinks5[i].className.replace(" a", "");
+  }
+  document.getElementById(cityName5).style.display = "block";
+  evt5.currentTarget.className += " a";
+}
+
+document.getElementById("default4").click();
+</script>
+<script>
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<script>
+var slideIndex = 0;
+showSlides();
+var slides,dots;
+
+function showSlides() {
+    var i;
+    slides = document.getElementsByClassName("mySlides");
+    dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); 
+}
+function plusSlides(position) {
+    slideIndex +=position;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    else if(slideIndex<1){slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+}
+
+function currentSlide(index) {
+    if (index> slides.length) {index = 1}
+    else if(index<1){index = slides.length}
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[index-1].style.display = "block";  
+    dots[index-1].className += " active";
+}
+</script>
+</body>
+</html>

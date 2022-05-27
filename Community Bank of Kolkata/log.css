@@ -1,0 +1,58 @@
+*{
+	margin:0px;
+}
+.main{
+	background-color:orange;
+	color:white;
+	font-size:20px;
+	padding:30px;
+	float:left;	
+}
+button{
+	border:2px solid orange;
+	background-color:orange;
+	width:29%;
+	color:white;
+	padding:10px;
+}
+.inside{
+	color:orange;
+}
+.foot{
+	font-family:100px;
+}
+.submit{
+	background-color:orange;
+	width:29%;
+	padding:10px;
+	border:0px;
+}
+.tab13 {
+  overflow: hidden;
+
+ 
+}
+
+.tab13 button {
+  color:#52595D;
+  float:left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  align-items:center;
+}
+.tab13 button:hover {
+	color:orange;
+}
+.tab13 button.active8 {
+	background-color:orange;
+	color:white;
+}
+.tabcontent13 {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}

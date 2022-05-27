@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+<head>
+<title>Today</title>
+</head>
+<body>
+<input type="button" onclick="naya()" value="hhh">
+<input type="button" onclick="arr()" value="hh1">
+<script>
+
+function cars(color, engine, company)
+{
+	this.colorcar = color;
+	this.engine = engine;
+	this.carcompany = company
+	}
+function naya(){
+	var i1o  = new cars("red", 13000, "As5")
+	i1o.speed = "590 KM/hr"
+	i1o.material = "Gold"
+	var il1 = new cars("Blue",550000,"AS5w")
+	document.write(i1o.speed+"<br>"+il1.colorcar+"<br>"+i1o.material);
+	console.log(i1o.carcompany+il1.carcompany);
+	document.write(cata);
+	
+}	
+function arr(){
+	var b = [];
+	for(var i = 0; i < 5; i++){
+    b.push(prompt("Likh bosdk"+ (i+1)));
+	
+	}
+	alert("Bosdk dekh Result:" + b.join(', '));
+	b.pop();
+	b.shift();
+	alert(b);
+	
+	
+
+	
+	
+}
+
+
+
+</script>
+</body>
+</html>

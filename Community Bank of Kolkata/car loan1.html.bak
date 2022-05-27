@@ -1,0 +1,130 @@
+<!Doctype html>
+<html>
+<head>
+<title>Car Loan</title>
+<link rel="stylesheet" href="gg.css">
+<link rel=icon href="nricar.jpeg" type="image/x-icon">
+</head>
+<body>
+<nav>
+	<a href="Home.html">Home</a>
+	<a href="nri.html">NRI Loan Home</a>
+</nav><img src="trust.jpeg" width="100px">ā
+<div class="qs">
+	<a class="we" href="Contact Us.html">Contact Us</a>
+    <a class="we" href="Feedback.html">Feedback</a>
+	<a class="we" href="terms.html">Terms and Conditions</a>
+</div><br><br>
+<div class="i">
+<p class="opt">Select for which loan is applied-: (You can choose only one option)<br>
+	
+	Car<input type="radio" name="sati" id="sati" required>&nbsp;&nbsp;&nbsp Bike<input type="radio" name="sati" id="sati" required>&nbsp;&nbsp;&nbsp Jeep<input type="radio" name="sati" id="sati" required><br><br>Van<input type="radio" name="sati" id="sati" required>&nbsp;&nbsp Scooty<input type="radio" name="sati" id="sati" required></p>  
+</p>
+<hr color="#3D3C3A"></hr>
+<form action="">
+ <p>Required fields are followed by *</p>
+ 
+ <hr color="#3D3C3A"></hr>
+ <h2>Personal Information</h2>
+ <p>* Name-: <br><input type="text" name="fname lname" required></p>
+ <p>* DOB-:  <br><input type="date" name="dob" required></p>
+  * Gender-: 
+ <p> 
+	 Male<input type="radio" name="gender" id="gender" required>  |  Female<input type="radio" name="gender" id="gender" required>  |  Rather Not to Say<input type="radio" name="gender" id="gender" required>                 
+</p>
+ * Salutation-:  <p> 
+	 Mr<input type="radio" name="sat" id="sat" required>  |  Mrs<input type="radio" name="sat" id="sat" required>  |  Ms<input type="radio" name="sat" id="sat" required>  |  Dr.<input type="radio" name="sat" id="sat" required>  |  Other<input type="radio" name="sat" id="sat" required>                
+</p>
+* Maritial Status-: 
+ <p> 
+	 Married<input type="radio" name="di" id="di" required>  |  Unmarried<input type="radio" name="di" id="di" required>  |  Divorce<input type="radio" name="di" id="di" required>  |  
+	 Name of Spouse (if applicable)<input class="sqp" type="text" name="sp"> 
+	 
+</p>
+<p>* Education-:<br><br>
+	Primary<input type="radio" name="edu" id="edu" required>  |  Secondary<input type="radio" name="edu" id="edu" required>  |  Diploma<input type="radio" name="edu" id="edu" required>  |  Graduate<input type="radio" name="edu" id="edu" required>  |  Post-Graduate<input type="radio" name="edu" id="sat" required>  |  Professional<input type="radio" name="edu" id="edu" required>
+</p>	
+<p>* Identifiation-: <br>
+   <select name="card_type" id="card_type" required>
+   <option value=""><--Select An Identifiation--></option>
+   <option value="aadhar">AADHAR CARD</option>
+   <option value="pan">PAN CARD</option>
+   <option value="pass">PASSPORT</option>
+   <option value="vote">VOTER ID CARD</option>   
+   <option value="dl">DRIVING LICENSE</option>
+   </select>
+</p>
+<p>Driving License Number-:&nbsp(if applicable)<br>
+	<input type="number" name="dln" required>
+</p>
+<p>* Passport Number-:<br>
+	<input type="text" name="panu" required>
+</p>
+* Category-:	  <p> 
+	 SC<input type="radio" name="sa" id="sa" required>  |  ST<input type="radio" name="sa" id="sa" required>  |  OBC<input type="radio" name="sa" id="sa" required>  |  GENERAL<input type="radio" name="sa" id="sa" required>                  
+</p>
+<p>* Place of Birth-:  <input type="text" name="pob" required></p>
+ <hr color="#3D3C3A"></hr>
+<h2> Address</h2>
+<p>
+   * House/Flat/Apartent Name-:<br>
+   <input type="text" name="hfa" required>
+</p>
+<p>* Area/Location of Residence-:<br>
+	<input type="text" name="alr" required>
+</p>
+<p>* City-:<br>
+	<input type="text" name="city" required>
+</p>
+<p>* State-:<br>
+	<input type="text" name="State" required>
+</p>
+<p>* Phone No-:<br>
+	<input type="number" name="State" required pattern='[0-9]{10}'>
+</p>
+<p>* Email-: <br>
+<input type="email" name="email" id="email" required>
+</p>
+* Pincode-: <br>
+<input type="text" name="number" id="number" required pattern='[0-9]{6}'><br>(max 6 digits)</p>
+<hr color="#3D3C3A"></hr>
+<h2>Occupation</h2>
+<p>* Status-: <br><br>
+	Owner<input type="radio" name="ow" id="ow" required>  |  Employee<input type="radio" name="ow" id="ow" required>
+</p>
+<p>* Adress of Company-: <br>
+	<input type="text" name="State" required>
+</p>
+<p>* Type of Business-: <br><br>
+	Government Sector<input type="radio" name="tob" id="tob" required>  |  Private Sector<input type="radio" name="tob" id="tob" required>  |  Pvt Ltd Company<input type="radio" name="tob" id="tob" required>  |  Partnership<input type="radio" name="tob" id="tob" required>  |  Proprietorship<input type="radio" name="tob" id="tob" required>  
+</p>
+<p>* Annual Income of Family-:<br>
+	<input type="number" name="aiof" required>
+</p>
+<p>* City-:<br>
+	<input type="text" name="State" required>
+</p> 
+<p>* State-:<br>
+	<input type="text" name="State" required>
+</p> 
+<p>* Email of Company-:<br>
+	<input type="email" name="email" id="email" required>
+</p>
+</p>
+* Pincode-: <br>
+<input type="text" name="number" id="number" required pattern='[0-9]{6}'><br>(max 6 digits)</p>
+<hr color="#3D3C3A"></hr>
+<h2>Other Details</h2>
+<p>* Mode of Re-payment-:<br><br>
+	Cheque<input type="radio" name="cq" id="cq" required>  |  Net Banking<input type="radio" name="cq" id="cq" required>  |  Upi<input type="radio" name="cq" id="cq" required>
+</p>
+ <p>* Relation with Bank-:<br><br>
+	Less than 1 year<input type="radio" name="ys" id="ys" required>  |  1-3 years<input type="radio" name="ys" id="ys" required>  |  3+ years<input type="radio" name="ys" id="ys" required>
+ </p>
+ <hr color="#3D3C3A"></hr>
+<input type="submit" value="Apply Now" required>
+<input type="reset" value="RESET">
+</form>
+</div>
+</body>
+</html>

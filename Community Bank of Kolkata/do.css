@@ -1,0 +1,83 @@
+header{
+	background-image:url("l2.jpeg"),url("im.jpeg"),url("mor.jpeg");
+	background-repeat:no-repeat,no-repeat,no-repeat;
+	background-position:left top,center top,right top;	
+	padding:67px;
+	background-color:white;
+}
+.topnav {
+  overflow: hidden;
+  
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: white;
+  color: grey;
+}
+.topnav a {
+  background-color: orange;
+  color: white;
+}
+.topnav a.native {
+  background-color: white;
+  color: grey;
+}
+
+
+.topnav-right {
+  float: right;
+}
+.high{
+	box-sizing:border-box;
+	padding:5px;
+	background-color:white;
+	border:1px solid #D3D3D3;
+}
+.head{
+	color:orange;
+	font-size:20px;
+}
+.fo{
+	color:#454545;
+}
+.quad{
+	background-color:orange;
+	color:white;
+	padding:10px;
+	text-decoration:none;
+	float:right;
+	margin:1px;
+}
+.quad1{
+	background-color:orange;
+	color:white;
+	padding:10px;
+	text-decoration:none;
+	float:right;
+	margin:1px;
+}
+.quad:hover{
+	cursor:pointer;
+}
+nav{
+	background-color:orange;
+	padding:20px;
+	overflow:hidden;
+	text-align:left;
+}
+nav a{
+	text-decoration:none;
+	color:white;
+	padding:30px;
+}
+a:hover{
+	background-color:white;
+	color:grey;
+}

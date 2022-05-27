@@ -1,0 +1,29 @@
+<!Doctype html>
+<html>
+<head>
+<title>Car</title>
+</head>
+<body>
+<button onclick="car.detail()">Heelo</button>
+<input type="text" onclick="hum" placeholder="Yo Yo Bantai Rappers">
+<script>
+var car = {
+		color: "red",
+		material: "Alloys",
+		engine: "V5",
+		detail: function (){
+			document.write(this.color + "<br>" +this.engine)
+		}
+
+}
+
+var y=this;
+document.write(this.this) 
+
+function hum(){
+	display:none;
+}
+
+</script>
+</body>
+</html>

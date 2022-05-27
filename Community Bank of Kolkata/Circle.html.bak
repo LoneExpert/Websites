@@ -1,0 +1,19 @@
+<!Doctype html>
+<html>
+<head>
+<title>Circle</title>
+</head>
+<body>
+<script>
+	function area(r){
+		var pi = 3.14;
+		window.alert(pi*r*r);
+	}
+</script>
+<script>
+	area(5)
+	var y = x+5;
+	window.alert(y);
+</script>
+</body>
+</html>

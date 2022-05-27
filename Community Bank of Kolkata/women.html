@@ -1,0 +1,531 @@
+<!Doctype html>
+<html>
+<head>
+<title>Women Aura</title>
+<link rel="stylesheet" href="Look.css">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="women.css">
+<link rel=icon href="aura2.jpg" type="image/x-icon">
+<link rel="stylesheet"
+		href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav class="navigation-bar">
+    <img class="logo" src="trust.jpeg">
+    <a class="other" href="About us.html">Know us</a>
+    <a class="home1" href="Home.html">Home</a>
+    <a class="other" href="nri.html">NRI</a>
+	<a href="#">asdf</a>
+		<a href="#">asdf</a>
+				
+	<a class="log" href="login.html">Login/Sign-up</a>
+	<a class="log1" href="abuse.html">Report an abuse</a>
+	<a class="log1" href="debit.html">Debit Card Info</a>
+</nav>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr color="#D3D3D3"></hr>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<div class="input-icons">
+				<i class="fa fa-search icon">
+			</i>
+			&nbsp&nbsp <input onclick="openul()" type="text"  id="searchInput" placeholder="Search for Products and Services...">
+
+<div class="list" id="fruits"><button class="ins" type="button" onclick="closeul()">X</button>
+  <p><a class="search" href="About us.html">Know us</a></p>
+  <p><a class="search" href="nri.html">NRI</a></p>  
+  <p><a class="search" href="Payment Form.html">Payment Form</a></p>  
+  <p><a class="search" href="Loan.html">Loan</a></p>
+  <p><a class="search" href="home loan1.1.html">Home Loan</a></p>    
+  <p><a class="search" href="personal loan.html">Personal Loan</a></p>
+  <p><a class="search" href="native.html">Loan for Study Native</a></p>  
+  <p><a class="search" href="abroad.html">Loan for Study Abroad</a></p>  
+  <p><a class="search" href="saving1.html">Savings Account</a></p>
+  <p><a class="search" href="women.html">Women Aura</a></p>  
+  <p><a class="search" href="Contact Us.html">Contact us</a></p> 
+  <p><a class="search" href="#Covid-19 Finance">Covid-19 Finance</a></p>
+  <p><a class="search" href="#Disaster Finance">Disaster Finance</a></p>  
+  <p><a class="search" href="special.html">Special Offers</a></p>  
+  <p><a class="search" href="fixed1.html">Fixed Account</a></p>  
+  <p><a class="search" href="current1.html">Current Account</a></p>  
+  <p><a class="search" href="car loan1.1.html">Car Loan</a></p>
+  <p><a class="search" href="edu1.1.html">Education Loan</a></p>  
+  <p><a class="search" href="personal1.1.html">Personal Loan</a></p>  
+  <p><a class="search" href="Business1.1.html">Business Loan</a></p>
+  <p><a class="search" href="gold1.1.html">Gold Loan</a></p>    
+</div>
+	<script>$("#searchInput").on('keyup', function() {
+  var searchValue = $(this).val();
+  searchAndFilter(searchValue)
+});
+
+function searchAndFilter(searchTerm) {
+  if (searchTerm == '') {
+    $("#fruits p").hide()
+  } else {
+    $("#fruits p").each(function() {
+      var currentText = $(this).text();
+      currentText = currentText.toUpperCase();
+      searchTerm = searchTerm.toUpperCase();
+      if (currentText.indexOf(searchTerm) >= 0) {
+        $(this).show();
+      }
+    });
+  }
+}
+
+$(document).ready(function() {
+  $("#fruits p").hide();
+});
+</script>
+<script>
+function openul() {
+  document.getElementById("fruits").style.display = "block";
+}
+
+function closeul() {
+  document.getElementById("fruits").style.display = "none";
+}
+</script>
+<br>
+<br>
+<nav class="parthead">
+	<div class="dropdown">
+    <button class="dropbtn">&nbsp&nbsp&nbsp&nbspAccount
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="saving1.html">Savings Account</a>
+      <a href="fixed1.html">Fixed Account</a>
+      <a href="current1.html">Current Account</a>
+    </div>
+	</div>
+	<div class="dropdown">
+    <button class="dropbtn">&nbsp&nbsp&nbsp&nbspLoan
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="home loan1.1.html">Home Loan</a>
+      <a href="car loan1.1.html">Car Loan</a>
+	  <a href="edu1.1.html">Education Loan</a>
+      <a href="personal1.1.html">Personal Loan</a>
+	  <a href="business1.1.html">Business Loan</a>
+      <a href="gold1.1.html">Gold Loan</a>
+    </div>
+	<a class="part" href="Payment Form.html">&nbsp&nbsp&nbsp&nbspE-Payment</a>
+	<a class="part" href="net.html">&nbsp&nbsp&nbsp&nbspNET Banking</a>
+	<a class="part" href="special.html">&nbsp&nbsp&nbsp&nbspSpecial Offers</a>
+	<a class="part" href="women.html">&nbsp&nbsp&nbsp&nbspWomen Aura</a>
+</nav>
+<br>
+<br>
+<br>	
+<div class="slideshow-container1">
+
+<div class="mySlides1 fade">
+  <img src="aura7.png" style="width:100%;height:340px">
+
+</div>
+
+<div class="mySlides1 fade">
+  <img src="aura6.png" style="width:99%;height:340px">
+ 
+</div>
+
+<div class="mySlides1 fade">
+  <img src="aura8.jpg" style="width:99%;height:340px">
+  
+</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+</div>
+<br><br>
+<div class="tab6">
+  <button class="hidden"><p style="color:white">as</p></button>
+  <button class="tablinks6" onclick="openCity1(event, 'London7')" id="default5">Advantage Woman Aura Savings Account</button>
+  <button class="tablinks6" onclick="openCity1(event, 'London8')">Advantage Woman Aura Loan</button>
+  <button class="tablinks6" onclick="window.location.href='terms.html'">Terms and Condition</button>
+  <button class="tablinks6" onclick="window.location.href='feedback.html'">FAQ'S</button><br><br><br><br>			
+</div>
+<div id="London7" class="tabcontent6">
+<div class="flex-container">
+  <div><span class="fi1">Advantage of Woman Aura Savings Account</span><br><br>
+  <p class="fir">Every woman has an endless potential to achieve her dreams and to make a difference to the society at large.
+  Advantage Woman Aura Savings Account aims to help working women and non-working women fuel all their aspirations and needs.
+  This women’s Savings Account comes in two types. One is for working women and other is for non-working women. The offers 
+  such as housing convenience, shopping, travel, knowledge enhancement and more. A true Savings Account for women.</p>
+</div>
+  <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img class="fe" src="aura.jpg" width="450px">
+</div>
+<img src="off.png" width="100%"><br>
+<div class="tab7">
+  <p style="background-color:white;color:#46464C;padding:20px;font-size:20px">&nbsp&nbspBenefits and Features</p>
+   <button class="hidden"></button>
+  <button class="tablinks7" onclick="openCity2(event, 'London9')" id="default6">DEBIT CARD BENEFITS</button>
+  <button class="tablinks7" onclick="openCity2(event, 'Paris9')">IPROTECT SMART</button>
+</div>
+<div id="London9" class="tabcontent7">
+  <div class="rate1"><p class="bf1">Debit Card Benefits</p><br>
+  <p class="int">With the CBK Bank Debit Card issued with the CBK Bank Advantage Woman Aura Savings Account, 
+	a working woman can get cashback of up to Rs 750 per month on dining, entertainment and jewellery purchases. 
+	Further, the account holders will be eligible for free access to ATMs of all the banks, within India.</p>
+</div>
+</div>
+<div id="Paris9" class="tabcontent7">
+<div class="rate1"><p class="bf1">IProtect Smart features</p><br>
+  <ul class="int">You have an option to avail an iProtect Smart Life Cover, along with your Advantage Woman Savings Account.
+  <br><br><li class="int1">CBK Prudential’s iProtect Smart Life Cover provides protection against death, 
+  &nbsp&nbspcritical and terminal illness, as well as disability, along with the following &nbsp&nbspbenefits:</li>
+  <br><li class="int1">Coverage against 34 critical illnesses* including female organ cancers, such as breast cancer and cervical cancer</li>
+  <br><li class="int1">Additional cover on death, due to accident</li>
+  <br><li class="int1">Tax benefits under Section 80C and 80D.</li>
+  <br><li class="int1">Benefit of Rs 4 lakh and Rs 3 lakh each, for ladies aged between 21 to 35 years of age and between 
+  36 to 50 years of age respectively, starting at a monthly premium of Rs 200</li></ul>
+</div>
+</div>
+<br><br><br>
+<div class="box">
+	<p class="cont">BEWARE OF SPURIOUS PHONE CALLS AND FICTITIOUS/FRAUDULENT OFFERS.</p><br>
+	<p class="cont1">IRDAI clarifies to the public that:</p><br>
+	<p class="cont2">IRDAI or its officials are not involved in activities like 
+	the sale of any kind of insurance or financial products nor invest in premiums.</p><br>
+	<p class="cont2">IRDAI does not announce any bonus. Public receiving such phone calls are requested to lodge a police complaint, 
+	along with the details of the phone call or number.</p><br>
+</div>
+<div class="tab8">
+  <p style="background-color:white;color:#46464C;padding:20px;font-size:20px">&nbsp&nbspDocument Required</p>
+   <button class="hidden"></button>
+  <button class="tablinks8" onclick="openCity3(event, 'London10')" id="default7">IDENTITY AND ADDRESS PROFF</button>
+  <button class="tablinks8" onclick="openCity3(event, 'Paris10')">COMMUNICATION ADDRESS PROOF</button>
+</div>
+<div id="London10" class="tabcontent8">
+  <div class="rate1"><p class="bf1">Identity and address proof</p><br>
+  <ul class="int">Any one of the following documents would serve as proof of identity and address (OVD) of the Customer:
+  <br><br><li class="int1">Passport</li>
+  <br><li class="int1">Driving Licence issued by the Regional Transport Authority</li>
+  <br><li class="int1">Voter ID</li>
+  <br><li class="int1">Job card issued by NREGA, signed by a State Government Officer</li>
+  <br><li class="int1">Letter from the National Population Register</li>
+  <br><li class="int1">Proof of possession of a complete Aadhaar number</li></ul><br>
+  <p class="int1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPAN Card issued in India is no longer considered a valid proof of identity.</p>
+</div>
+</div>
+<div id="Paris10" class="tabcontent8">
+	<div class="rate1"><p class="bf1">Communication Address Proof</p><br>
+  <ul class="int">If the above address proof does not contain your communication address, then the following documents can be considered as proof of address. In such cases, 
+  the customer has to update the OVD with a communication address and submit it to the bank within 3 months of account opening.
+  <br><br><li class="int1">Utility Bill, not older than 2 months (electricity, telephone, post-paid mobile phone, piped gas, water bill)</li>
+  <br><li class="int1">Property Tax Bill or Municipal Tax receipt, not older than one year</li>
+  <br><li class="int1">Letter of Allotment for accommodation from the employer issued by the State Government or Central Government Departments, statutory or regulatory bodies, 
+  public sector undertakings, scheduled commercial banks, financial institutions and listed companies</li>
+  <br><li class="int1">Leave and Licence agreement with any of the above employers. Agreement to contain the customer’s name as the employee</li>
+  <br><li class="int1">Pension or family pension payment orders issued to retired employees by the government departments or public sector undertakings, 
+  if they contain the address.</li></ul>
+</div>
+</div>
+<div class="tab9">
+  <p style="background-color:white;color:#46464C;padding:20px;font-size:20px">&nbsp&nbspDocument Required and Apply</p>
+   <button class="hidden"></button>
+  <button class="tablinks9" onclick="openCity4(event, 'London11')" id="default8">ELEGIBILITY</button>
+  <button class="tablinks9" onclick="openCity4(event, 'Paris11')">APPLY</button>
+</div>
+<div id="London11" class="tabcontent9">
+<div class="flex-contain">
+  <div><br><p class="ae">&nbsp&nbsp<span class="tit">For Working Womens-:</span><br><br>&nbsp&nbspAge</p><br><img class="gd"src="gender.jpg" width="50px"><span class="age">18 Years and above</span></div>
+  <div><br><br><br><p class="ae"><p>&nbsp&nbspResident</p><br><img class="gd"src="heart.jpg" width="50px"><span class="age">Indian working woman</div>
+  <div><br><br><br><p class="ae"><p>&nbsp&nbspApplicant</p><br><img class="gd"src="gender.jpg" width="50px"><span class="age">Primary Applicant</div>
+</div>
+<div class="flex-contain">
+  <div><br><p class="ae">&nbsp&nbsp<span class="tit">For Non-Working Womens-:</span><br><br>&nbsp&nbspAge</p><br><img class="gd"src="gender.jpg" width="50px"><span class="age">18 Years and above</span></div>
+  <div><br><br><br><p class="ae"><p>&nbsp&nbspResident</p><br><img class="gd"src="heart.jpg" width="50px"><span class="age">Indian House Wife or others</div>
+  <div><br><br><br><p class="ae"><p>&nbsp&nbspApplicant</p><br><img class="gd"src="gender.jpg" width="50px"><span class="age">Primary Applicant</div>
+</div>
+  
+</div>
+
+<div id="Paris11" class="tabcontent9">
+  <div class="flex-contai">
+  <div><br><p class="ae">&nbsp&nbsp<span class="tit">For Working Womens-:</p><br><br><p>&nbsp&nbspStart your saving account by using E-instant approval below</p></div><br>
+  <div><br><p class="ae">&nbsp&nbsp<span class="tit">For Non-Working Womens-:</p><br><br><p>&nbsp&nbspStart your saving account by using E-instant approval below</p></div>
+</div>
+  <div class="flex-contai">
+  <div>&nbsp&nbsp<a href="saving.html"><input class="hl2" type="submit" value="GET E-INSTANT APPROVAL"></a></div>
+  <div>&nbsp&nbsp<a href="saving.html"><input class="hl2" type="submit" value="GET E-INSTANT APPROVAL"></a></div>
+  </div>
+</div>
+</div>
+<div id="London8" class="tabcontent6">
+<div class="flex-container">
+  <div><span class="fi1">Advantage of Woman Aura Loans</span><br><br>
+  <p class="fir">In today's generation everyone is need for loans not only mens need loan even women are having equal rights for it.
+  So, CBK Bank has come with two kind of loans especially for womens. One loans is for those women who needs for their personal use 
+  and other one is for those women who are single earner to the family. These two loans can help you to balance your family as the 
+  tenure are also long enough so that it di not give burden to you.</p>
+</div>
+ <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img class="fe" src="aura2.jpg" width="450px">
+  </div>
+	<img src="off1.png" width="100%"><br>
+<div class="tab10">
+  <p style="background-color:white;color:#46464C;padding:20px;font-size:20px">&nbsp&nbspBenefits and Features</p>
+   <button class="hidden"></button>
+  <button class="tablinks10" onclick="openCity5(event, 'London12')" id="default9">DEBIT CARD BENEFITS</button>
+  <button class="tablinks10" onclick="openCity5(event, 'Paris12')">IPROTECT SMART</button>
+  <button class="tablinks10" onclick="openCity5(event, 'n')">INTREST RATE</button>
+</div>
+<div id="London12" class="tabcontent10">
+  <div class="rate1"><p class="bf1">Debit Card Benefits</p><br>
+  <p class="int">With the CBK Bank Debit Card issued with the CBK Bank Advantage Woman Aura Savings Account, 
+	a working woman can get cashback of up to Rs 750 per month on dining, entertainment and jewellery purchases. 
+	Further, the account holders will be eligible for free access to ATMs of all the banks, within India.</p>
+</div>
+</div>
+<div id="Paris12" class="tabcontent10">
+<div class="rate1"><p class="bf1">IProtect Smart features</p><br>
+  <ul class="int">You have an option to avail an iProtect Smart Life Cover, along with your Advantage Woman Savings Account.
+  <br><br><li class="int1">CBK Prudential’s iProtect Smart Life Cover provides protection against death, 
+  &nbsp&nbspcritical and terminal illness, as well as disability, along with the following &nbsp&nbspbenefits:</li>
+  <br><li class="int1">Coverage against 34 critical illnesses* including female organ cancers, such as breast cancer and cervical cancer</li>
+  <br><li class="int1">Additional cover on death, due to accident</li>
+  <br><li class="int1">Tax benefits under Section 80C and 80D.</li>
+  <br><li class="int1">Benefit of Rs 4 lakh and Rs 3 lakh each, for ladies aged between 21 to 35 years of age and between 
+  36 to 50 years of age respectively, starting at a monthly premium of Rs 200</li></ul>
+</div>
+</div>
+<div id="n" class="tabcontent10">
+  <div class="rate1"><p class="bf1">Intrest Rate</p><br>
+  <p class="ints1">For Non seasons-:</p>
+  <p class="ints">5-5.8% p.a.</p><br>
+  <p class="ints1">For festive seasons-:</p><br><p class="ints">8-9.2% p.a.</p>
+</div>
+</div>
+<br><br><br>
+<div class="box">
+	<p class="cont">BEWARE OF SPURIOUS PHONE CALLS AND FICTITIOUS/FRAUDULENT OFFERS.</p><br>
+	<p class="cont1">IRDAI clarifies to the public that:</p><br>
+	<p class="cont2">IRDAI or its officials are not involved in activities like 
+	the sale of any kind of insurance or financial products nor invest in premiums.</p><br>
+	<p class="cont2">IRDAI does not announce any bonus. Public receiving such phone calls are requested to lodge a police complaint, 
+	along with the details of the phone call or number.</p><br>
+</div>
+<div class="tab11">
+  <p style="background-color:white;color:#46464C;padding:20px;font-size:20px">&nbsp&nbspDocument Required</p>
+   <button class="hidden"></button>
+  <button class="tablinks11" onclick="openCity6(event, 'London13')" id="default10">IDENTITY AND ADDRESS PROFF</button>
+  <button class="tablinks11" onclick="openCity6(event, 'Paris13')">COMMUNICATION ADDRESS PROOF</button>
+</div>
+<div id="London13" class="tabcontent11">
+  <div class="rate1"><p class="bf1">Identity and address proof</p><br>
+  <ul class="int">Any one of the following documents would serve as proof of identity and address (OVD) of the Customer:
+  <br><br><li class="int1">Passport</li>
+  <br><li class="int1">Driving Licence issued by the Regional Transport Authority</li>
+  <br><li class="int1">Voter ID</li>
+  <br><li class="int1">Job card issued by NREGA, signed by a State Government Officer</li>
+  <br><li class="int1">Letter from the National Population Register</li>
+  <br><li class="int1">Proof of possession of a complete Aadhaar number</li></ul><br>
+  <p class="int1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPAN Card issued in India is no longer considered a valid proof of identity.</p>
+</div>
+</div>
+<div id="Paris13" class="tabcontent11">
+	<div class="rate1"><p class="bf1">Communication Address Proof</p><br>
+  <ul class="int">If the above address proof does not contain your communication address, then the following documents can be considered as proof of address. In such cases, 
+  the customer has to update the OVD with a communication address and submit it to the bank within 3 months of account opening.
+  <br><br><li class="int1">Utility Bill, not older than 2 months (electricity, telephone, post-paid mobile phone, piped gas, water bill)</li>
+  <br><li class="int1">Property Tax Bill or Municipal Tax receipt, not older than one year</li>
+  <br><li class="int1">Letter of Allotment for accommodation from the employer issued by the State Government or Central Government Departments, statutory or regulatory bodies, 
+  public sector undertakings, scheduled commercial banks, financial institutions and listed companies</li>
+  <br><li class="int1">Leave and Licence agreement with any of the above employers. Agreement to contain the customer’s name as the employee</li>
+  <br><li class="int1">Pension or family pension payment orders issued to retired employees by the government departments or public sector undertakings, 
+  if they contain the address.</li></ul>
+</div>
+</div>
+<div class="tab12">
+  <p style="background-color:white;color:#46464C;padding:20px;font-size:20px">&nbsp&nbspDocument Required and Apply</p>
+   <button class="hidden"></button>
+  <button class="tablinks12" onclick="openCity7(event, 'London14')" id="default11">ELEGIBILITY</button>
+  <button class="tablinks12" onclick="openCity7(event, 'Paris14')">APPLY</button>
+</div>
+<div id="London14" class="tabcontent12">
+<div class="flex-contain">
+  <div><br><p class="ae">&nbsp&nbsp<span class="tit">For Personal Use-:</span><br><br>&nbsp&nbspAge</p><br><img class="gd"src="gender.jpg" width="50px"><span class="age">18 Years and above</span></div>
+  <div><br><br><br><p class="ae"><p>&nbsp&nbspResident</p><br><img class="gd"src="heart.jpg" width="50px"><span class="age">Indian woman</div>
+  <div><br><br><br><p class="ae"><p>&nbsp&nbspApplicant</p><br><img class="gd"src="gender.jpg" width="50px"><span class="age">Primary Applicant</div>
+</div>
+<div class="flex-contain">
+  <div><br><p class="ae">&nbsp&nbsp<span class="tit">For Single Mother Womens-:</span><br><br>&nbsp&nbspAge</p><br><img class="gd"src="gender.jpg" width="50px"><span class="age">18 Years and above</span></div>
+  <div><br><br><br><p class="ae"><p>&nbsp&nbspResident</p><br><img class="gd"src="heart.jpg" width="50px"><span class="age">Indian Divorced or others</div>
+  <div><br><br><br><p class="ae"><p>&nbsp&nbspApplicant</p><br><img class="gd"src="gender.jpg" width="50px"><span class="age">Primary Applicant</div>
+</div>
+  
+</div>
+
+<div id="Paris14" class="tabcontent12">
+  <div class="flex-contai">
+  <div><br><p class="ae">&nbsp&nbsp<span class="tit">For Personal Use-:</p><br><br><p>&nbsp&nbspStart your saving account by using E-instant approval below</p></div><br>
+  <div><br><p class="ae">&nbsp&nbsp<span class="tit">For Single Mother Womens-:</p><br><br><p>&nbsp&nbspStart your saving account by using E-instant approval below</p></div>
+</div>
+  <div class="flex-contai">
+  <div>&nbsp&nbsp<a href="woman.html"><input class="hl2" type="submit" value="GET E-INSTANT APPROVAL"></a></div>
+  <div>&nbsp&nbsp<a href="woman.html"><input class="hl2" type="submit" value="GET E-INSTANT APPROVAL"></a></div>
+  </div>
+</div>
+</div>
+
+
+<script>
+var slideIndex1 = 0;
+showSlides1();
+
+function showSlides1() {
+  var i;
+  var slides1 = document.getElementsByClassName("mySlides1");
+  var dots1= document.getElementsByClassName("dot1");
+  for (i = 0; i < slides1.length; i++) {
+    slides1[i].style.display = "none";  
+  }
+  slideIndex1++;
+  if (slideIndex1 > slides1.length) {slideIndex1 = 1}    
+  for (i = 0; i < dots1.length; i++) {
+    dots1[i].className = dots1[i].className.replace(" active1", "");
+  }
+  slides1[slideIndex1-1].style.display = "block";  
+  dots1[slideIndex1-1].className += " active1";
+  setTimeout(showSlides1, 4000); 
+}
+</script>
+<script>
+function openCity1(evt6, cityName6) {
+  var i, tabcontent6, tablinks6;
+  tabcontent6 = document.getElementsByClassName("tabcontent6");
+  for (i = 0; i < tabcontent6.length; i++) {
+    tabcontent6[i].style.display = "none";
+  }
+  tablinks6 = document.getElementsByClassName("tablinks6");
+  for (i = 0; i < tablinks6.length; i++) {
+    tablinks6[i].className = tablinks6[i].className.replace(" a1", "");
+  }
+  document.getElementById(cityName6).style.display = "block";
+  evt6.currentTarget.className += " a1";
+}
+
+document.getElementById("default5").click();
+</script>
+<script>
+function openCity2(evt7, cityName7) {
+  var i, tabcontent7, tablinks7;
+  tabcontent7 = document.getElementsByClassName("tabcontent7");
+  for (i = 0; i < tabcontent7.length; i++) {
+    tabcontent7[i].style.display = "none";
+  }
+  tablinks7 = document.getElementsByClassName("tablinks7");
+  for (i = 0; i < tablinks7.length; i++) {
+    tablinks7[i].className = tablinks7[i].className.replace(" active2", "");
+  }
+  document.getElementById(cityName7).style.display = "block";
+  evt7.currentTarget.className += " active2";
+}
+
+
+document.getElementById("default6").click();
+</script>
+<script>
+function openCity3(evt8, cityName8) {
+  var i, tabcontent8, tablinks8;
+  tabcontent8 = document.getElementsByClassName("tabcontent8");
+  for (i = 0; i < tabcontent8.length; i++) {
+    tabcontent8[i].style.display = "none";
+  }
+  tablinks8 = document.getElementsByClassName("tablinks8");
+  for (i = 0; i < tablinks8.length; i++) {
+    tablinks8[i].className = tablinks8[i].className.replace(" active3", "");
+  }
+  document.getElementById(cityName8).style.display = "block";
+  evt8.currentTarget.className += " active3";
+}
+
+
+document.getElementById("default7").click();
+</script>
+<script>
+function openCity4(evt9, cityName9) {
+  var i, tabcontent9, tablinks9;
+  tabcontent9 = document.getElementsByClassName("tabcontent9");
+  for (i = 0; i < tabcontent9.length; i++) {
+    tabcontent9[i].style.display = "none";
+  }
+  tablinks9 = document.getElementsByClassName("tablinks9");
+  for (i = 0; i < tablinks9.length; i++) {
+    tablinks9[i].className = tablinks9[i].className.replace(" active4", "");
+  }
+  document.getElementById(cityName9).style.display = "block";
+  evt9.currentTarget.className += " active4";
+}
+
+
+document.getElementById("default8").click();
+</script>
+<script>
+function openCity5(evt10, cityName10) {
+  var i, tabcontent10, tablinks10;
+  tabcontent10 = document.getElementsByClassName("tabcontent10");
+  for (i = 0; i < tabcontent10.length; i++) {
+    tabcontent10[i].style.display = "none";
+  }
+  tablinks10 = document.getElementsByClassName("tablinks10");
+  for (i = 0; i < tablinks10.length; i++) {
+    tablinks10[i].className = tablinks10[i].className.replace(" active5", "");
+  }
+  document.getElementById(cityName10).style.display = "block";
+  evt10.currentTarget.className += " active5";
+}
+
+
+document.getElementById("default9").click();
+</script>
+<script>
+function openCity6(evt11, cityName11) {
+  var i, tabcontent11, tablinks11;
+  tabcontent11 = document.getElementsByClassName("tabcontent11");
+  for (i = 0; i < tabcontent11.length; i++) {
+    tabcontent11[i].style.display = "none";
+  }
+  tablinks11 = document.getElementsByClassName("tablinks11");
+  for (i = 0; i < tablinks11.length; i++) {
+    tablinks11[i].className = tablinks11[i].className.replace(" active6", "");
+  }
+  document.getElementById(cityName11).style.display = "block";
+  evt11.currentTarget.className += " active6";
+}
+
+
+document.getElementById("default10").click();
+</script>
+<script>
+function openCity7(evt12, cityName12) {
+  var i, tabcontent12, tablinks12;
+  tabcontent12 = document.getElementsByClassName("tabcontent12");
+  for (i = 0; i < tabcontent12.length; i++) {
+    tabcontent12[i].style.display = "none";
+  }
+  tablinks12 = document.getElementsByClassName("tablinks12");
+  for (i = 0; i < tablinks12.length; i++) {
+    tablinks12[i].className = tablinks12[i].className.replace(" active7", "");
+  }
+  document.getElementById(cityName12).style.display = "block";
+  evt12.currentTarget.className += " active7";
+}
+
+
+document.getElementById("default11").click();
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!Doctype html>
+<html>
+<head>
+<title>9/3/2022</title>
+<style>
+	input[type="button"]{
+		background-color:red;
+		border-radius:10px;
+		border:none;
+		padding:20px;
+		}
+</style>
+</head>
+<body>
+<center><input type="button" onclick="add()">
+<input type="button" value="add" ondblclick="sub()">
+<input type="button" onmouseout="mul()">
+<input type="button" onmouseover="div()"></center>
+<script>
+	function add(){
+		var a,b,c
+		var a=parseInt(prompt("Enter First Number-: "));
+		var b=parseInt(prompt("Enter Second Number-: "));
+		var c=a+b;	
+		window.prompt(c);
+		window.alert("Run again for new addition");
+		}
+	function sub(){
+		var a,b,c
+		var a=parseInt(prompt("Enter First Number-: "));
+		var b=parseInt(prompt("Enter Second Number-: "));
+		var c=a-b;	
+		window.promptx(c);
+		window.alert("Run again for new Subtraction");
+		}
+	function mul(){
+		var a,b,c
+		var a=parseInt(prompt("Enter First Number-: "));
+		var b=parseInt(prompt("Enter Second Number-: "));
+		var c=a*b;	
+		window.prompt(c);
+		window.alert("Run again for new multiplication");
+		}
+	function div(){
+		var a,b,c
+		var a=parseInt(prompt("Enter First Number-: "));
+		var b=parseInt(prompt("Enter Second Number-: "));
+		var c=a/b;	
+		window.prompt(c);
+		window.alert("Run again for new Division");
+		}	
+</script>
+</body>
+</html>

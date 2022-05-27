@@ -1,0 +1,94 @@
+<!Doctype html>
+<html>
+<head>
+<title>Business Loan</title>
+<link rel="stylesheet" href="bl.css">
+<link rel=icon href="bl.jpeg" type="image/x-icon">
+</head>
+<body>
+<nav>
+	<a href="Home.html">Home</a>
+	<a href="Loan.html">Loan Home</a>
+</nav><img src="trust.jpeg" width="100px">
+<div class="qs">
+	<a class="we" href="Contact Us.html">Contact Us</a>
+    <a class="we" href="Feedback.html">Feedback</a>
+	<a class="we" href="terms.html">Terms and Conditions</a>
+</div><br><br>
+<div class="i">
+<form action="">
+ <p>Required fields are followed by *</p>
+ 
+ <hr color="#3D3C3A"></hr>
+ <h2>Business Information</h2>
+ <p>* Company Name-: <br><input type="text" name="cn" required></p>
+ <p>* Owner Name-: <br><input type="text" name="ow" required></p>
+ <p>  Second Owner Name-: <br><input type="text" name="ow"></p>
+ <p>  Third Owner Name-: <br><input type="text" name="ow"></p>
+ <p>  Fourth Owner Name-: <br><input type="text" name="ow"></p>
+<p>* Identifiation-: <br>
+   <select name="card_type" id="card_type" required>
+   <option value=""><--Select An Identifiation--></option>
+   <option value="aadhar">AADHAR CARD</option>
+   <option value="pan">PAN CARD</option>
+   <option value="pass">PASSPORT</option>
+   <option value="vote">VOTER ID CARD</option>   
+   <option value="dl">DRIVING LICENSE</option>
+   </select>
+</p>
+* Category-:	  <p> 
+	 SC<input type="radio" name="sa" id="sa" required>  |  ST<input type="radio" name="sa" id="sa" required>  |  OBC<input type="radio" name="sa" id="sa" required>  |  GENERAL<input type="radio" name="sa" id="sa" required>                  
+</p>
+<hr color="#3D3C3A"></hr>
+<h2> Address</h2>
+<p>
+   * Company Address-:<br>
+   <input type="text" name="hfa" required>
+</p>
+<p>* Type of Business-: <br><br>
+	Government Sector<input type="radio" name="tob" id="tob" required>  |  Private Sector<input type="radio" name="tob" id="tob" required>  |  Pvt Ltd Company<input type="radio" name="tob" id="tob" required>  |  Partnership<input type="radio" name="tob" id="tob" required>  |  Proprietorship<input type="radio" name="tob" id="tob" required>  
+</p>
+<p>* City-:<br>
+	<input type="text" name="city" required>
+</p>
+<p>* State-:<br>
+	<input type="text" name="State" required>
+</p>
+<p>* Phone No-:<br>
+	<input type="number" name="no" required pattern='[0-9]{10}'>
+</p>
+<p> Second Phone No-:<br>
+	<input type="number" name="no1"  pattern='[0-9]{10}'>
+</p>
+<p>* Company Email-: <br>
+<input type="email" name="email" id="email" required>
+</p>
+<p> Second Company Email-: <br>
+<input type="email" name="email" id="email1">
+</p>
+<p>* Company Fax No-:<br>
+	<input type="number" name="fax" required pattern='[0-9]{10}'>
+</p>
+<p> Second Company Fax No-:<br>
+	<input type="number" name="fax1"  pattern='[0-9]{10}'>
+</p>
+<p>* Company Website-:<br>
+	<input type="url" name="web" id="web" required>
+</p>
+* Pincode-: <br>
+<input type="text" name="number" id="number" required pattern='[0-9]{6}'><br>(max 6 digits)</p>
+<hr color="#3D3C3A"></hr>
+<h2>Other Details</h2>
+<p>* Mode of Re-payment-:<br><br>
+	Cheque<input type="radio" name="cq" id="cq" required>  |  Net Banking<input type="radio" name="cq" id="cq" required>  |  Upi<input type="radio" name="cq" id="cq" required>
+</p>
+ <p>* Relation with Bank-:<br><br>
+	Less than 1 year<input type="radio" name="ys" id="ys" required>  |  1-3 years<input type="radio" name="ys" id="ys" required>  |  3+ years<input type="radio" name="ys" id="ys" required>
+ </p>
+ <hr color="#3D3C3A"></hr>
+<input type="submit" value="Apply Now" required>
+<input type="reset" value="RESET">
+</form>
+</div>
+</body>
+</html>

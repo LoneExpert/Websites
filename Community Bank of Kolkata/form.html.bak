@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+<head>
+<title>Phone Number</title>
+</head>
+<body>
+<form>
+<input type=text placeholder="Enter Number" id="text"><button onclick="write()">Click !!</button>
+	<script>
+		a=/[0-9]/g
+			function write(){
+				Phone=document.getElementById("text").innerHTML
+				a=Phone.match(k)
+				alert(Phone);
+					if(){
+						alert("Okay");
+					}
+					else{
+						alert("Not Okay");
+					}
+		}			
+	</script>
+</form>
+
+</body>
+</html>

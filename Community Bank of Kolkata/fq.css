@@ -1,0 +1,26 @@
+input[type="text"]{
+	padding:20px;
+	font-size:15px;
+	width:95%;
+}
+input[type="submit"]{
+	background-color:orange;
+	color:white;
+	border:2px solid orange;
+	padding:10px;
+}
+div{
+	box-sizing:border box;
+	border:2px solid #34282C;
+	color:#837E7C;
+}
+a{
+	background-color:white;
+	color:orange;
+	padding:10px;
+	text-decoration:none;
+}
+a:hover{
+	background-color:white;
+	color:grey;
+}

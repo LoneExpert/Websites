@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>naya maal</title>
+</head>
+<body>
+<p id="hum">highs</p>
+<button id="ghd" onclick="fdfd">For background change</button>
+
+
+<script>
+	
+	document.getElementById("hum").style.color="red";
+	document.getElementById("ghd").style.backgroundColor="lime";
+	document.getElementById("ghd").style.color="red";
+	document.getElementById("ghd").style.border=1 px solid pink;
+	
+</script>
+
+</body>
+</html>
+

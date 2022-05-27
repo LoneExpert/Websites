@@ -1,0 +1,345 @@
+.tab6 {
+  overflow: hidden;
+
+ 
+}
+
+.tab6 button {
+  color:#52595D;
+  float:left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  align-items:center;
+}
+.tab6 button:hover {
+	color:orange;
+}
+.tab6 button.a1 {
+	background-color:orange;
+	color:white;
+}
+.tabcontent6 {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+.tab7 {
+ overflow:hidden;
+}
+
+
+.tab7 button {
+  color:#52595D;
+  float:left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  align-items:center;
+}
+
+
+.tab7 button:hover {
+  color:orange;
+}
+
+
+.tab7 button.active2 {
+  background-color: orange;
+  color:white;
+ 
+}
+
+
+.tabcontent7 {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+
+}
+.tab8 {
+ overflow:hidden;
+}
+
+
+.tab8 button {
+  color:#52595D;
+  float:left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  align-items:center;
+}
+
+
+.tab8 button:hover {
+  color:orange;
+}
+
+
+.tab8 button.active3 {
+  background-color: orange;
+  color:white;
+ 
+}
+
+
+.tabcontent8 {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+
+}
+.tab9 {
+ overflow:hidden;
+}
+
+
+.tab9 button {
+  color:#52595D;
+  float:left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  align-items:center;
+}
+
+
+.tab9 button:hover {
+  color:orange;
+}
+
+
+.tab9 button.active4 {
+  background-color: orange;
+  color:white;
+ 
+}
+
+
+.tabcontent9 {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+
+}
+.tab10 {
+ overflow:hidden;
+}
+
+
+.tab10 button {
+  color:#52595D;
+  float:left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  align-items:center;
+}
+
+
+.tab10 button:hover {
+  color:orange;
+}
+
+
+.tab10 button.active5 {
+  background-color: orange;
+  color:white;
+ 
+}
+
+
+.tabcontent10 {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+
+}
+.tab11 {
+ overflow:hidden;
+}
+
+
+.tab11 button {
+  color:#52595D;
+  float:left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  align-items:center;
+}
+
+
+.tab11 button:hover {
+  color:orange;
+}
+
+
+.tab11 button.active6 {
+  background-color: orange;
+  color:white;
+ 
+}
+
+
+.tabcontent11 {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+
+}
+.tab12 {
+ overflow:hidden;
+}
+
+
+.tab12 button {
+  color:#52595D;
+  float:left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  align-items:center;
+}
+
+
+.tab12 button:hover {
+  color:orange;
+}
+
+
+.tab12 button.active7 {
+  background-color: orange;
+  color:white;
+ 
+}
+
+
+.tabcontent12 {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+
+}
+.baf{
+	color:#3A3B3C;
+	font-size:20px;
+}
+.rate1{
+	background-color:#fffdd0;
+	padding:40px;
+}
+.bf1{
+	color:#074a86;
+	font-size:20px;
+}
+.int1{
+	color:#52595D;
+}
+.int{
+	color:#46464C;
+}
+.box{
+	box-sizing:border box;
+	border:2px solid #D3D3D3;
+	margin-left:10px;
+	margin-right:10px;
+}
+.cont{
+	color:orange;
+	font-size:18px;
+	padding-top:30px;
+	margin-left:20px;
+}
+.cont1{
+	color:#53595D;
+	font-weight:bold;
+	margin-left:20px;
+}
+.cont2{
+	color:#53495D;
+	margin-left:20px;
+}
+.flex-contain {
+  display: flex;
+  flex-wrap: nowrap;
+ 
+}
+
+.flex-contain > div {
+  background-color: white;
+  width:33%;
+  margin: 10px;
+  font-size: 15px;
+  color:#53595D;
+
+}
+.flex-contai {
+  display: flex;
+  flex-wrap: nowrap;
+ 
+}
+
+.flex-contai > div {
+  background-color: white;
+  width:50%;
+  margin: 10px;
+  font-size: 15px;
+
+  color:#53595D;
+  
+
+}
+.gd{
+	display:inline-block;
+}
+.age{
+	font-weight:bold;
+}
+.ae{
+	color:#53595D;
+}
+.tit{
+	color:#34282C;
+	font-size:20px;
+}
+.hl2{
+	width:78%;
+	color:white;
+	background-color:orange;
+	border:1px solid orange;
+	height:30px;
+	
+	
+	cursor:pointer;
+
+}
+.ints{
+	color:#53595D;
+}
+.ints1{
+	color:#53595D;
+	font-weight:bold;
+}

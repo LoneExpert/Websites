@@ -1,0 +1,16 @@
+<!Doctype html>
+<html>
+<head>
+<title>Phone1</title>
+</head>
+<body>
+
+<script>
+
+let a=122e-5;
+let b=122e5;
+window.alert(a);
+window.alert(b);
+</script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!Doctype html>
+<html>
+<head>
+<title>Fixed Account</title>
+<link rel="stylesheet" href="Look.css">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet"
+		href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav class="navigation-bar">
+    <img class="logo" src="trust.jpeg">
+    <a class="other" href="About us.html">Know us</a>
+    <a class="home1" href="Home.html">Home</a>
+    <a class="other" href="nri.html">NRI</a>
+	<a href="#">asdf</a>
+		<a href="#">asdf</a>
+				
+	<a class="log" href="login.html">Login/Sign-up</a>
+	<a class="log1" href="abuse.html">Report an abuse</a>
+	<a class="log1" href="debit.html">Debit Card Info</a>
+</nav>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr color="#D3D3D3"></hr>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<div class="input-icons">
+				<i class="fa fa-search icon">
+			</i>
+			&nbsp&nbsp <input onclick="openul()" type="text"  id="searchInput" placeholder="Search for Products and Services...">
+
+<div class="list" id="fruits"><button class="ins" type="button" onclick="closeul()">X</button>
+  <p><a class="search" href="About us.html">Know us</a></p>
+  <p><a class="search" href="nri.html">NRI</a></p>  
+  <p><a class="search" href="Payment Form.html">Payment Form</a></p>  
+  <p><a class="search" href="Loan.html">Loan</a></p>
+  <p><a class="search" href="home loan1.1.html">Home Loan</a></p>    
+  <p><a class="search" href="personal loan.html">Personal Loan</a></p>
+  <p><a class="search" href="native.html">Loan for Study Native</a></p>  
+  <p><a class="search" href="abroad.html">Loan for Study Abroad</a></p>  
+  <p><a class="search" href="saving1.html">Savings Account</a></p>
+  <p><a class="search" href="women.html">Women Aura</a></p>  
+  <p><a class="search" href="Contact Us.html">Contact us</a></p> 
+  <p><a class="search" href="#Covid-19 Finance">Covid-19 Finance</a></p>
+  <p><a class="search" href="#Disaster Finance">Disaster Finance</a></p>  
+  <p><a class="search" href="special.html">Special Offers</a></p>  
+  <p><a class="search" href="fixed1.html">Fixed Account</a></p>  
+  <p><a class="search" href="current1.html">Current Account</a></p>  
+  <p><a class="search" href="car loan1.1.html">Car Loan</a></p>
+  <p><a class="search" href="edu1.1.html">Education Loan</a></p>  
+  <p><a class="search" href="personal1.1.html">Personal Loan</a></p>  
+  <p><a class="search" href="Business1.1.html">Business Loan</a></p>
+  <p><a class="search" href="gold1.1.html">Gold Loan</a></p>     
+</div>
+	<script>$("#searchInput").on('keyup', function() {
+  var searchValue = $(this).val();
+  searchAndFilter(searchValue)
+});
+
+function searchAndFilter(searchTerm) {
+  if (searchTerm == '') {
+    $("#fruits p").hide()
+  } else {
+    $("#fruits p").each(function() {
+      var currentText = $(this).text();
+      currentText = currentText.toUpperCase();
+      searchTerm = searchTerm.toUpperCase();
+      if (currentText.indexOf(searchTerm) >= 0) {
+        $(this).show();
+      }
+    });
+  }
+}
+
+$(document).ready(function() {
+  $("#fruits p").hide();
+});
+</script>
+<script>
+function openul() {
+  document.getElementById("fruits").style.display = "block";
+}
+
+function closeul() {
+  document.getElementById("fruits").style.display = "none";
+}
+</script>
+<br>
+<br>
+<nav class="parthead">
+<div class="dropdown">
+    <button class="dropbtn">&nbsp&nbsp&nbsp&nbspAccount
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="saving1.html">Savings Account</a>
+      <a href="fixed1.html">Fixed Account</a>
+      <a href="current1.html">Current Account</a>
+    </div>
+	</div>
+	<div class="dropdown">
+    <button class="dropbtn">&nbsp&nbsp&nbsp&nbspLoan
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="home loan1.1.html">Home Loan</a>
+      <a href="car loan1.1.html">Car Loan</a>
+      <a href="personal1.1.html">Personal Loan</a>
+	  <a href="Business1.1.html">Business Loan</a>
+      <a href="gold1.1.html">Gold Loan</a>
+    </div>
+  </div> 
+	<a class="part" href="Payment Form.html">&nbsp&nbsp&nbsp&nbspE-Payment</a>
+	<a class="part" href="net.html">&nbsp&nbsp&nbsp&nbspNET Banking</a>
+	<a class="part" href="special.html">&nbsp&nbsp&nbsp&nbspSpecial Offers</a>
+	<a class="part" href="women.html">&nbsp&nbsp&nbsp&nbspWomen Aura</a>
+</nav>
+<br>
+<br>
+<br>	
+<div class="slideshow-container1">
+
+<div class="mySlides1 fade">
+  <img src="fd1.png" style="width:100%;height:340px">
+
+</div>
+
+<div class="mySlides1 fade">
+  <img src="fd1.jpg" style="width:99%;height:340px">
+ 
+</div>
+
+<div class="mySlides1 fade">
+  <img src="fd2.jpg" style="width:99%;height:340px">
+  
+</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+</div>
+<br><br>
+<div class="flex-container">
+  <div><span class="fi1">Fixed Account</span><br><br>
+  <p class="fir">Earn assured returns on your savings and meet your short-term and long-term goals with fixed deposits from CBK Bank. With attractive interest rates and flexible investment tenures, 
+  our fixed deposits are one of the safe investment options available. Opt for a fixed deposit account with us and let your savings grow over a period ranging from seven days to a decade!
+  If you prefer accessing our banking services in-person, simply visit the branch of CBK Bank that is near to you to open your fixed deposit account.</p>
+</div>
+  <div><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img class="fe" src="fdf.jpg" width="450px" height="200px">
+  </div>
+</div><br><br>
+<div class="flex-container2">
+	<div>
+		<p class="no1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRegular Fixed Deposit Account</p><br>
+		<ul><li>&nbspFeatures</li>
+		<p class="fir">&nbsp&nbsp&nbspSimple investment product which offers &nbsp&nbsp&nbspsafety, liquidity, flexibility and assured</p><p class="fir">&nbsp&nbsp&nbspreturns</p>
+		<p class="fir">&nbsp&nbsp&nbspOverdraft (OD) against FD up to 70% on &nbsp&nbsp&nbspprincipal plus accrued interest</p><br>
+		<li>&nbspBonus Features</li>
+		<p class="fir">&nbsp&nbsp&nbspOption of premature/partial withdrawal for &nbsp&nbsp&nbspurgent funds requirement</p><br>
+		<li>&nbspMinimum Amount</li>
+		<p class="fir">&nbsp&nbsp&nbspFD can be opened for minimum amount of &nbsp&nbsp&nbsp₹10,000.</p><br>
+		<li>&nbspOpening</li>
+		<p class="fir">&nbsp&nbsp&nbspInstant opening through both iMobile and &nbsp&nbsp&nbspinternet banking.</p></ul><br><br><br>
+		<a href="Contact Us.html">&nbsp&nbsp<input class="hl" type="submit" value="Need Assistance"></a><a href="fixed.html"><input class="hl1" type="submit" value="Apply Now"></a>
+	</div>
+	<div>
+		<p class="no1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMoney Multiplier Fixed Deposit Account</p><br>
+		<ul><li>&nbspFeatures</li>
+		<p class="fir">&nbsp&nbsp&nbspSimple investment product which offers &nbsp&nbsp&nbspsafety, liquidity, flexibility and assured</p><p class="fir">&nbsp&nbsp&nbspreturns</p>
+		<p class="fir">&nbsp&nbsp&nbspOverdraft (OD) against FD up to 90% on &nbsp&nbsp&nbspprincipal plus accrued interest</p><br>
+		<li>&nbspBonus Features</li>
+		<p class="fir">&nbsp&nbsp&nbspFDs will be broken in Last-In, First-Out &nbsp&nbsp&nbsp(LIFO) basis for reverse sweep.</p><br>
+		<li>&nbspMinimum Amount</li>
+		<p class="fir">&nbsp&nbsp&nbspFD can be opened for minimum amount of &nbsp&nbsp&nbsp₹15,000.</p><br>
+		<li>&nbspOpening</li>
+		<p class="fir">&nbsp&nbsp&nbspInstant opening through both iMobile and &nbsp&nbsp&nbspinternet banking by cutting 10% GST.</p></ul><br><br><br>
+		<a href="Contact Us.html">&nbsp&nbsp<input class="hl" type="submit" value="Need Assistance"></a><a href="fixed.html"><input class="hl1" type="submit" value="Apply Now"></a>
+	</div>
+	<div>
+		<p class="no1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTax Saver Fixed Account</p><br>
+		<ul><li>&nbspFeatures</li>
+		<p class="fir">&nbsp&nbsp&nbspUnique product which offers dual benefits of</p><p class="fir">&nbsp&nbsp&nbspassured returns and tax savings.</p>
+		<p class="fir">&nbsp&nbsp&nbspInterest earned is taxable.</p><br>
+		<li>&nbspBonus Features</li>
+		<p class="fir">&nbsp&nbsp&nbspGet tax deduction up to ₹1,50,000 under &nbsp&nbsp&nbspSection 80C*</p><br>
+		<li>&nbspMinimum Amount</li>
+		<p class="fir">&nbsp&nbsp&nbspFD can be opened for minimum amount of &nbsp&nbsp&nbsp₹10,000</p><br>
+		<li>&nbspOpening</li>
+		<p class="fir">&nbsp&nbsp&nbspInstant opening through both iMobile and &nbsp&nbsp&nbspinternet banking by cutting 10% GST, 15% &nbsp&nbsp&nbspBTO</p></ul><br><br><br><br>
+		<a href="Contact Us.html">&nbsp&nbsp<input class="hl" type="submit" value="Need Assistance"></a><a href="fixed.html"><input class="hl1" type="submit" value="Apply Now"></a>
+	</div>
+</div><br>
+
+<div class="rate">
+	<p class="security">WE GIVE YOU MOST ESTEEMED</p>
+	<p class="security1">FACILITIES !</p>
+	</div><br><br>
+	<div><img src="hodi.jpg" width="250px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="hodi1.jpg" width="250px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="hodi2.jpg" width="270px" height="350px"></div>
+	<div><img src="hodi3.png" width="250px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="hodi4.jpg" width="250px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="hodi5.jpg" width="290px"></div>
+	<br><br>
+
+<script>
+var slideIndex1 = 0;
+showSlides1();
+
+function showSlides1() {
+  var i;
+  var slides1 = document.getElementsByClassName("mySlides1");
+  var dots1= document.getElementsByClassName("dot1");
+  for (i = 0; i < slides1.length; i++) {
+    slides1[i].style.display = "none";  
+  }
+  slideIndex1++;
+  if (slideIndex1 > slides1.length) {slideIndex1 = 1}    
+  for (i = 0; i < dots1.length; i++) {
+    dots1[i].className = dots1[i].className.replace(" active1", "");
+  }
+  slides1[slideIndex1-1].style.display = "block";  
+  dots1[slideIndex1-1].className += " active1";
+  setTimeout(showSlides1, 4000); 
+}
+</script>
+<script>
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>

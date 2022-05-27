@@ -1,0 +1,122 @@
+<!Doctype html>
+<html>
+<head>
+<title>Current Account</title>
+<link rel="stylesheet" href="cr.css">
+<link rel=icon href="cur.jpeg" type="image/x-icon">
+</head>
+<body>
+<nav>
+	<a href="Home.html">Home</a>
+	<a href="account.html">Account Home</a>
+</nav><img src="trust.jpeg" width="100px">
+<div class="qs">
+	<a class="we" href="Contact Us.html">Contact Us</a>
+    <a class="we" href="Feedback.html">Feedback</a>
+	<a class="we" href="terms.html">Terms and Conditions</a>
+</div><br><br>
+<div class="i">
+<form action="">
+ <p>Required fields are followed by *</p>
+ <p>Read Terms and Condition to get to know about different types of current account and it usage</p>
+ 
+ <hr color="#3D3C3A"></hr>
+ <h2>Personal Information</h2>
+ <p>* Name-: <br><input type="text" name="fname lname" required></p>
+ <p>* Father's Name-: <br><input type="text" name="fname lname" required></p>
+ <p>* Mother's Name-: <br><input type="text" name="fname lname" required></p>
+ <p>* DOB-:  <br><input type="date" name="dob" required></p>
+  * Gender-: 
+ <p> 
+	 Male<input type="radio" name="gender" id="gender" required>  |  Female<input type="radio" name="gender" id="gender" required>  |  Rather Not to Say<input type="radio" name="gender" id="gender" required>                 
+</p>
+<p>* Education-:<br><br>
+	Primary<input type="radio" name="edu" id="edu" required>  |  Secondary<input type="radio" name="edu" id="edu" required>  |  Diploma<input type="radio" name="edu" id="edu" required>  |  Graduate<input type="radio" name="edu" id="edu" required>  |  Post-Graduate<input type="radio" name="edu" id="sat" required>  |  Professional<input type="radio" name="edu" id="edu" required>
+</p>	
+<p>* Identifiation-: <br>
+   <select name="card_type" id="card_type" required>
+   <option value=""><--Select An Identifiation--></option>
+   <option value="aadhar">AADHAR CARD</option>
+   <option value="pan">PAN CARD</option>
+   <option value="pass">PASSPORT</option>
+   <option value="vote">VOTER ID CARD</option>   
+   <option value="dl">DRIVING LICENSE</option>
+   </select>
+</p>
+* Category-:	  <p> 
+	 SC<input type="radio" name="sa" id="sa" required>  |  ST<input type="radio" name="sa" id="sa" required>  |  OBC<input type="radio" name="sa" id="sa" required>  |  GENERAL<input type="radio" name="sa" id="sa" required>                  
+</p>
+<p>* Place of Birth-:  <input type="text" name="pob" required></p>
+ <hr color="#3D3C3A"></hr>
+<h2> Address</h2>
+<p>
+   * House/Flat/Apartent Name-:<br>
+   <input type="text" name="hfa" required>
+</p>
+<p>* Residence Type-: <br><br>
+	Self Owned<input type="radio" name="rt" id="rt" required>  |  Rented<input type="radio" name="rt" id="rt" required>  |  Company Provided<input type="radio" name="rt" id="rt" required>  |  With Family<input type="radio" name="rt" id="rt" required>  |  With Relatives<input type="radio" name="rtr" id="rtr" required>  |  With Friends<input type="radio" name="rtr" id="rtr" required>
+</p>
+<p>* Area/Location of Residence-:<br>
+	<input type="text" name="alr" required>
+</p>
+<p>* City-:<br>
+	<input type="text" name="city" required>
+</p>
+<p>* State-:<br>
+	<input type="text" name="State" required>
+</p>
+<p>* Phone No-:<br>
+	<input type="number" name="State" required pattern='[0-9]{10}'>
+</p>
+<p>* Email-: <br>
+<input type="email" name="email" id="email" required>
+</p>
+* Pincode-: <br>
+<input type="text" name="number" id="number" required pattern='[0-9]{6}'><br>(max 6 digits)</p>
+<hr color="#3D3C3A"></hr>
+<h2>Occupation</h2>
+<p>* Status-: <br><br>
+	Owner<input type="radio" name="ow" id="ow" required>  |  Employee<input type="radio" name="ow" id="ow" required>
+</p>
+<p>* Adress of Company-: <br>
+	<input type="text" name="State" required>
+</p>
+<p>* Type of Business-: <br><br>
+	Government Sector<input type="radio" name="tob" id="tob" required>  |  Private Sector<input type="radio" name="tob" id="tob" required>  |  Pvt Ltd Company<input type="radio" name="tob" id="tob" required>  |  Partnership<input type="radio" name="tob" id="tob" required>  |  Proprietorship<input type="radio" name="tob" id="tob" required>  
+</p>
+<p>* Annual Income of Family-:<br>
+	<input type="number" name="aiof" required>
+</p>
+<p>* City-:<br>
+	<input type="text" name="State" required>
+</p> 
+<p>* State-:<br>
+	<input type="text" name="State" required>
+</p> 
+<p>* Email of Company-:<br>
+	<input type="email" name="email" id="email" required>
+</p>
+</p>
+* Pincode-: <br>
+<input type="text" name="number" id="number" required pattern='[0-9]{6}'><br>(max 6 digits)</p>
+<hr color="#3D3C3A"></hr>
+<h2>Other Details</h2>
+<p>* Please choose the folowing--:<br><br>
+	Minor<input type="radio" name="plc" id="plc" required>  |  Seniour Citizen<input type="radio" name="plc" id="plc" required>  |  Staff<input type="radio" name="plc" id="plc" required>  |  Ex-staff<input type="radio" name="plc" id="plc" required>  |  Pensioner<input type="radio" name="plc" id="plc" required>  |  Other General<input type="radio" name="plc" id="plc" required></p>
+<p>	Name of Guardian (In case of minor):<br><input type="text" name="gd"></p>
+ <p>* Which type of current account you have to open-:&nbsp(you can choose one option at a time)<br><br>
+	New Start-Up Current Account<input type="radio" name="icic" id="icic" required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ShubhAarambh Current Account<input type="radio" name="icic" id="icic" required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSmart Business Account<input type="radio" name="icic" id="icic" required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSmart Business Account – Gold<input type="radio" name="icic" id="icic" required><br><br>Roaming Current Account – Gold<input type="radio" name="icic" id="icic" required>&nbsp&nbsp&nbspRoaming Current Account – Standard<input type="radio" name="icic" id="icic" required>&nbsp&nbsp&nbsp&nbspRoaming Current Account – Classic<input type="radio" name="icic" required>&nbsp&nbsp&nbsp&nbspRoaming Current Account – Premium<input type="radio" name="icic" required> 
+ </p>
+  <hr color="#3D3C3A"></hr>
+ <p>* Current Account Type-:</p>
+	 <p>Self<input type="radio" name="sta" id="sta" required>  |  Joint<input type="radio" name="sta" id="sta" required> 
+</p>
+	<p>If joint-:&nbsp(Name of Joint Account Holder Name)</p>
+	<p><input type="text" name="join" ></p>
+ <hr color="#3D3C3A"></hr>
+<input class="foot" type="submit" value="Apply Now" required>
+<input class="foot" type="reset" value="RESET">
+</form>
+</div>
+</body>
+</html>

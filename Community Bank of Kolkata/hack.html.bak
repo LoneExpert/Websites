@@ -1,0 +1,97 @@
+<!Doctype html>
+<html>
+<head><title>Experince</title>
+<link rel=stylesheet href="hack.css">
+</head>
+<body>
+</head>
+<style>
+body{
+	background-image:url("pic.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+</style>
+<body>
+
+<div class="head"><center>Experience</div></center>
+
+<br><br>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front" style="text-align: center">
+      <p class="hi">Graphic Designer</p>
+	  <p class="hi">2017-2018</p>
+	  <p class="hi">Superior Excel Media</p>
+	  <p class="hi">New York City</p>
+    </div>
+    <div class="flip-box-back">
+      <p class="inside">1. Worked in the graphic design production and &nbsp&nbsp&nbsp&nbspmarketing departments pages.</p>
+	  <p class="inside">2. Assist in the development and creation of &nbsp&nbsp&nbsp&nbspinformational marketing departments pages.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box1">
+  <div class="flip-box-inner1">
+    <div class="flip-box-front1">
+      <p class="hi">Junior Graphic Designer</p>
+	  <p class="hi">2018-2019</p>
+	  <p class="hi">Cvelto Del'Zai Media</p>
+	  <p class="hi">Washington D.C.</p>
+    </div>
+    <div class="flip-box-back1">
+      <p class="inside">1. Research relevant artwork and typefaces for &nbsp&nbsp&nbsp&nbspintegration into designs.</p>
+	  <p class="inside">2. Reviews specs for each project to ensure &nbsp&nbsp&nbsp&nbspaccurate file set-up and export.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box3">
+  <div class="flip-box-inner3">
+    <div class="flip-box-front3">
+      <p class="hi">Senior Graphic Designer</p>
+	  <p class="hi">2019-2020</p>
+	  <p class="hi">Tommas E'L Media</p>
+	  <p class="hi">Austin</p>
+    </div>
+    <div class="flip-box-back3">
+      <p class="inside">1. Experience with a portfolio of design projects &nbsp&nbsp&nbsp&nbspand Experience in design software (e.g., Adobe &nbsp&nbsp&nbsp&nbspCreative Suite, Figma).</p>
+	  <p class="inside">2. Experience with vector graphic Illustration and &nbsp&nbsp&nbsp&nbspexperience in motion graphics.</p>
+	</div>
+  </div>
+</div>
+
+<div class="flip-box2">
+  <div class="flip-box-inner2">
+    <div class="flip-box-front2">
+      <p class="hi">Senior Graphic Designer</p>
+	  <p class="hi">2020-2021</p>
+	  <p class="hi">Pentagram Media</p>
+	  <p class="hi">San Francisco</p>
+    </div>
+    <div class="flip-box-back2">
+      <p class="inside">1. Conceptualized and designed custom branding, &nbsp&nbsp&nbsp&nbspmarketing materials for local builders.</p>
+	  <p class="inside">2. Produced effective visual marketing campaign &nbsp&nbsp&nbsp&nbspfor home services of California,Exploratorium.</p>
+    </div>
+  </div>
+</div>
+<br><br>
+<div class="flip-box4">
+  <div class="flip-box-inner4">
+    <div class="flip-box-front4">
+      <p class="hi">Head Graphic Designer</p>
+	  <p class="hi">Present 2022</p>
+	  <p class="hi">Wolff Olins Media</p>
+	  <p class="hi">Beijing</p>
+    </div>
+    <div class="flip-box-back4">
+	  <p class="inside">1. Providing strategic and creative advice on how &nbsp&nbsp&nbsp&nbspa client can make the most of marketing &nbsp&nbsp&nbsp&nbspperformance.</p>
+	  <p class="inside">2. Mentored and instructed a small team of 6, &nbsp&nbsp&nbsp&nbspincluding junior designer and videographers.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
